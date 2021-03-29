@@ -68,7 +68,7 @@ pre {
   font-family: "Lato";
   font-style: normal;
   font-weight: 300;
-  src: local(""), url("../theme/fonts/lato-v17-latin-300.woff2") format("woff2"), url("../theme/fonts/lato-v17-latin-300.woff") format("woff");
+  src: local(""), url("../theeyeinst/fonts/lato-v17-latin-300.woff2") format("woff2"), url("../theeyeinst/fonts/lato-v17-latin-300.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* lato-regular - latin */
@@ -76,7 +76,7 @@ pre {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../theme/fonts/lato-v17-latin-regular.woff2") format("woff2"), url("../theme/fonts/lato-v17-latin-regular.woff") format("woff");
+  src: local(""), url("../theeyeinst/fonts/lato-v17-latin-regular.woff2") format("woff2"), url("../theeyeinst/fonts/lato-v17-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* lato-900 - latin */
@@ -84,7 +84,7 @@ pre {
   font-family: "Lato";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../theme/fonts/lato-v17-latin-900.woff2") format("woff2"), url("../theme/fonts/lato-v17-latin-900.woff") format("woff");
+  src: local(""), url("../theeyeinst/fonts/lato-v17-latin-900.woff2") format("woff2"), url("../theeyeinst/fonts/lato-v17-latin-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* lato-700 - latin */
@@ -92,9 +92,9 @@ pre {
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/lato-v17-latin-700.eot");
+  src: url("../theeyeinst/fonts/lato-v17-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../theme/fonts/lato-v17-latin-700.eot?#iefix") format("embedded-opentype"), url("../theme/fonts/lato-v17-latin-700.woff2") format("woff2"), url("../theme/fonts/lato-v17-latin-700.woff") format("woff"), url("../theme/fonts/lato-v17-latin-700.ttf") format("truetype"), url("../theme/fonts/lato-v17-latin-700.svg#Lato") format("svg");
+  src: local(""), url("../theeyeinst/fonts/lato-v17-latin-700.eot?#iefix") format("embedded-opentype"), url("../theeyeinst/fonts/lato-v17-latin-700.woff2") format("woff2"), url("../theeyeinst/fonts/lato-v17-latin-700.woff") format("woff"), url("../theeyeinst/fonts/lato-v17-latin-700.ttf") format("truetype"), url("../theeyeinst/fonts/lato-v17-latin-700.svg#Lato") format("svg");
   /* Legacy iOS */
 }
 .fake {
