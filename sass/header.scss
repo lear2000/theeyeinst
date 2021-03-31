@@ -11,18 +11,48 @@ header{
 		width: 173.087px;
 		height:48.026px;
 	}
-	.nav-top {
+	.nav-wraps {
 		margin-left: auto;
+	}
+	.nav-top {
+		display: flex;
+		justify-content: flex-end;
+		padding-bottom: .9em;
 		ul {
 			display: flex;
 			list-style: none;
 			li {
 				padding-right: 1em;
+				&:last-of-type {
+					padding-right: 0;
+				}
 				a {
 					font-weight: normal;
 					color: color.$brand;
 					text-transform: uppercase;
 					font-size: 11px;
+					text-decoration: none;
+							&:hover {
+											text-decoration: underline;
+										}
+				}
+			}
+		}
+	}
+	.nav-bottom {
+		ul {
+			list-style: none;
+			display: flex;
+			li {
+				padding-right: 1em;
+				&:last-of-type {
+					padding-right: 0;
+				}
+				a {
+					font-weight: normal;
+					text-decoration: none;
+					color: color.$navitem;
+					font-size: 14px;
 				}
 			}
 		}
