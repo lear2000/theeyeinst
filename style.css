@@ -163,6 +163,7 @@ h5 {
 a {
   color: #7832D0;
   font-weight: 900;
+  cursor: pointer;
 }
 a:hover {
   text-decoration: underline;
@@ -234,6 +235,12 @@ ol {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   background-color: #FAFAFA;
   width: 100%;
@@ -292,6 +299,8 @@ header .nav-bottom ul {
 }
 header .nav-bottom ul li {
   padding-right: 1em;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 header .nav-bottom ul li:last-of-type {
   padding-right: 0;
@@ -301,6 +310,17 @@ header .nav-bottom ul li a {
   text-decoration: none;
   color: #4E3A6A;
   font-size: 14px;
+  padding: 8px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+header .nav-bottom ul li a:hover {
+  color: #7832D0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #F4F4F4;
+  transition: all 0.3s ease-in-out;
 }
 
 .h-tel {
@@ -315,6 +335,55 @@ header .nav-bottom ul li a {
     padding-left: 0.5em;
     font-size: 1.2em;
   }
+}
+
+.menu-item-has-children {
+  position: relative;
+}
+.menu-item-has-children .sub-menu {
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 320px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #F4F4F4;
+  transition: all 0.3s ease-in-out;
+}
+.menu-item-has-children .sub-menu li {
+  padding: 4px 8px 4px 1.5em;
+}
+.menu-item-has-children .sub-menu li:hover {
+  background-color: #FAFAFA;
+}
+.menu-item-has-children .sub-menu li a:hover {
+  background-color: #FAFAFA;
+}
+.menu-item-has-children .sub-menu.depth-0 {
+  display: none;
+  opacity: 0;
+}
+.menu-item-has-children .sub-menu.depth-0 a {
+  padding: initial;
+  display: block;
+  width: 100%;
+  border: none;
+}
+.menu-item-has-children .sub-menu.depth-0 a:hover {
+  border-radius: initial;
+  box-shadow: initial;
+  border: initial;
+}
+.menu-item-has-children .sub-menu.depth-1 {
+  display: none;
+}
+
+.menu-item-has-children:hover .sub-menu.depth-0 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 1;
+  display: block;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */

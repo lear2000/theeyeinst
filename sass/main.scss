@@ -57,6 +57,7 @@ h5 {
 a {
 	color: color.$purple;
 	font-weight: color.$bold;
+	cursor: pointer;
 	 &:hover {
 	 		text-decoration: underline;
 	 }
@@ -124,4 +125,11 @@ ol {
 			border: 1px solid 	rgba(255, 255, 255, .5);
 		}
 	}
+}
+
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
