@@ -1,5 +1,8 @@
 @use 'colors' as color;
 @media screen and (min-width: 1025px) {
+	.banner {
+		display: none;
+	}
 		header{
 			background-color: color.$background;
 			width: 100%;
@@ -177,4 +180,62 @@
 
 			}
 		}
+}
+
+@media screen and (max-width: 1024px) {
+
+	.banner {
+		background-color: color.$background;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 34px;
+		width: 100%;
+		color: color.$brand;
+		font-size: 12px;
+		margin: 0 auto;
+		text-align: center;
+		a {
+			color: color.$brand;
+			font-size: 12px;
+		}
+	}
+
+  header {
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+  .nav-top {
+  	display: none;
+  }
+  .nav-bottom {
+  	.h-tel {
+  		display: none;
+  	}
+  }
+
+.burger {
+	display: inline-block;
+	cursor: pointer;
+	.bar1,.bar2 {
+		display: block;
+		width: 38px;
+		height: 4px;
+		background-color: #462279;
+		transition: 0.4s;
+		border-radius: 5px;
+	}
+	.bar1 {
+		margin-bottom: 8px;
+	}
+}
+
+.nav-bottom {
+	display: none;
+}
+
+
+ /* end moobs */
+
 }

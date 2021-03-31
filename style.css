@@ -242,6 +242,10 @@ img {
 }
 
 @media screen and (min-width: 1025px) {
+  .banner {
+    display: none;
+  }
+
   header {
     background-color: #FAFAFA;
     width: 100%;
@@ -434,6 +438,66 @@ img {
   .sub-menu.depth-0 .menu-item-has-children:hover .sub-menu.depth-1 a {
     line-height: 1.5;
   }
+}
+@media screen and (max-width: 1024px) {
+  .banner {
+    background-color: #FAFAFA;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    height: 34px;
+    width: 100%;
+    color: #473E5C;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner a {
+    color: #473E5C;
+    font-size: 12px;
+  }
+
+  header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-align-items: center;
+            align-items: center;
+  }
+
+  .nav-top {
+    display: none;
+  }
+
+  .nav-bottom .h-tel {
+    display: none;
+  }
+
+  .burger {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .burger .bar1, .burger .bar2 {
+    display: block;
+    width: 38px;
+    height: 4px;
+    background-color: #462279;
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+  .burger .bar1 {
+    margin-bottom: 8px;
+  }
+
+  .nav-bottom {
+    display: none;
+  }
+
+  /* end moobs */
 }
 
 /*# sourceMappingURL=style.css.map */
