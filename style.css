@@ -279,10 +279,16 @@ header .nav-top ul li a {
 header .nav-top ul li a:hover {
   text-decoration: underline;
 }
+header .nav-bottom {
+  display: -webkit-flex;
+  display: flex;
+}
 header .nav-bottom ul {
   list-style: none;
   display: -webkit-flex;
   display: flex;
+  -webkit-align-items: center;
+          align-items: center;
 }
 header .nav-bottom ul li {
   padding-right: 1em;
@@ -295,6 +301,20 @@ header .nav-bottom ul li a {
   text-decoration: none;
   color: #4E3A6A;
   font-size: 14px;
+}
+
+.h-tel {
+  color: #473E5C;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-decoration: none;
+  padding-left: 1em;
+}
+@media screen and (max-width: 1057px) {
+  .h-tel {
+    padding-left: 0.5em;
+    font-size: 1.2em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -20,6 +20,7 @@
 				<li><a href="">Patient Stories</a></li>
 				<li><a href="">Contact</a></li>
 			</ul>
+			<a class="h-tel" href="tel:(801) 980-3592">(801) 980-3592</a>
 		</nav>
 	</div>
 </header>

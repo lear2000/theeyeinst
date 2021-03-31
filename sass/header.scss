@@ -40,9 +40,11 @@ header{
 		}
 	}
 	.nav-bottom {
+		display: flex;
 		ul {
 			list-style: none;
 			display: flex;
+			align-items: center;
 			li {
 				padding-right: 1em;
 				&:last-of-type {
@@ -56,5 +58,16 @@ header{
 				}
 			}
 		}
+	}
+}
+.h-tel {
+	color: color.$brand;
+	font-weight: color.$semibold;
+	font-size: 1.4em;
+	text-decoration: none;
+	padding-left: 1em;
+	@media screen and (max-width: 1057px) {
+	  padding-left: .5em;
+	  font-size: 1.2em;
 	}
 }
