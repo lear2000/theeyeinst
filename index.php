@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+<?php include 'tmpl/snippet-header.php'; ?>
 <div class="fake">
 	<p>This is body copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do strong inline link ut labore et inline link hover dolore magna italic. Ut enim ad minim veniam, quis
 	nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>

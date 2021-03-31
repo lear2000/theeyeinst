@@ -234,4 +234,36 @@ ol {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+header {
+  background-color: #FAFAFA;
+  width: 100%;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 20px;
+  padding-bottom: 33px;
+  display: -webkit-flex;
+  display: flex;
+}
+header .logo {
+  width: 173.087px;
+  height: 48.026px;
+}
+header .nav-top {
+  margin-left: auto;
+}
+header .nav-top ul {
+  display: -webkit-flex;
+  display: flex;
+  list-style: none;
+}
+header .nav-top ul li {
+  padding-right: 1em;
+}
+header .nav-top ul li a {
+  font-weight: normal;
+  color: #473E5C;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
 /*# sourceMappingURL=style.css.map */

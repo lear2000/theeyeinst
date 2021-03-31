@@ -73,6 +73,36 @@
       "oAP" : "\/fonts\/lato-v17-latin-regular.woff2",
       "oF" : 0
     },
+    "\/header.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/header-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/header.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/header.css.map",
+      "oF" : 0
+    },
+    "\/img\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -136,7 +166,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/header.css",
       "oF" : 0,
       "oS" : 1,
@@ -217,6 +247,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/style.css.map",
+      "oF" : 0
+    },
+    "\/tmpl\/snippet-header.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/snippet-header.php",
       "oF" : 0
     }
   },

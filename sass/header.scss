@@ -1,0 +1,30 @@
+@use 'colors' as color;
+header{
+	background-color: color.$background;
+	width: 100%;
+	padding-left: 44px;
+	padding-right: 44px;
+	padding-top: 20px;
+	padding-bottom: 33px;
+	display: flex;
+	.logo {
+		width: 173.087px;
+		height:48.026px;
+	}
+	.nav-top {
+		margin-left: auto;
+		ul {
+			display: flex;
+			list-style: none;
+			li {
+				padding-right: 1em;
+				a {
+					font-weight: normal;
+					color: color.$brand;
+					text-transform: uppercase;
+					font-size: 11px;
+				}
+			}
+		}
+	}
+}
