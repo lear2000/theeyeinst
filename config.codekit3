@@ -121,6 +121,17 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
+    "\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -268,6 +279,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/style.css.map",
+      "oF" : 0
+    },
+    "\/tmpl\/footer.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/footer.php",
       "oF" : 0
     },
     "\/tmpl\/snippet-header.php" : {
