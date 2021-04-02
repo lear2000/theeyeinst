@@ -18,17 +18,25 @@
 			<ul>
 				<li><a href="">About</a></li>
 				<li><a href="">LASIK</a></li>
-				<li><a href="">LASIK Alternatives</a></li>
+				<li class="menu-item-has-children">
+					<a href="">LASIK Alternatives</a><div class="nav-plus"><span></span><span></span></div>
+					<ul class="sub-menu depth-0">
+						<li><a>Dropdown1</a></li>
+						<li><a>Dropdown2</a></li>
+						<li><a>Dropdown3</a></li>
+						<li><a>Dropdown4</a></li>
+					</ul>
+				</li>
 				<li><a href="">Cataracts</a></li>
 				<li class="menu-item-has-children">
-						<a href="">Dry Eye</a>
+						<a href="">Dry Eye</a> <div class="nav-plus"><span></span><span></span></div>
 						<ul class="sub-menu depth-0">
 							<li><a>Dropdown1</a></li>
 							<li><a>Dropdown2</a></li>
 							<li><a>Dropdown3</a></li>
 							<li><a>Dropdown4</a></li>
 							<li class="menu-item-has-children">
-								<a>Dropdown5</a>
+								<a>Dropdown5</a><div class="nav-plus"><span></span><span></span></div>
 								<ul class="sub-menu depth-1">
 									<li><a href="">Grandchild</a></li>
 									<li><a href="">Grandchild</a></li>

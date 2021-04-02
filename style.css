@@ -108,6 +108,9 @@ body {
   line-height: 2;
   color: #4D4D4D;
 }
+body.is-active {
+  overflow: hidden;
+}
 
 p {
   font-family: "Lato";
@@ -467,6 +470,8 @@ img {
             justify-content: space-between;
     -webkit-align-items: center;
             align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
   }
 
   .nav-top {
@@ -480,6 +485,7 @@ img {
   .burger {
     display: inline-block;
     cursor: pointer;
+    position: relative;
   }
   .burger .bar1, .burger .bar2 {
     display: block;
@@ -492,9 +498,111 @@ img {
   .burger .bar1 {
     margin-bottom: 8px;
   }
+  .burger.is-active .bar1 {
+    position: relative;
+    top: 11px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .burger.is-active .bar2 {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
 
   .nav-bottom {
+    position: fixed;
+    top: calc(48px + 34px);
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    min-height: 100vh;
+    overflow: scroll;
+    background-color: #fff;
+  }
+  .nav-bottom > ul {
+    padding: 1em;
+    padding-left: 2em;
+    padding-bottom: 10em;
+  }
+  .nav-bottom ul {
+    list-style: none;
+  }
+  .nav-bottom ul a {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #4E3A6A;
+  }
+  .nav-bottom.is-active {
+    display: block;
+    z-index: 500;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+    min-height: 100vh;
+  }
+  .nav-bottom .menu-item-has-children {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .nav-bottom .menu-item-has-children .nav-plus {
+    display: block;
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    position: relative;
+  }
+  .nav-bottom .menu-item-has-children .nav-plus span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 1em;
+    background: #4E3A6A;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+  }
+  .nav-bottom .menu-item-has-children .nav-plus span:nth-child(1) {
+    top: 10px;
+    left: 2.5px;
+  }
+  .nav-bottom .menu-item-has-children .nav-plus span:nth-child(2) {
+    top: 10px;
+    left: 2.5px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .nav-bottom .menu-item-has-children .nav-plus.is-active span:nth-child(2) {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .nav-bottom .menu-item-has-children .depth-0 {
     display: none;
+  }
+  .nav-bottom .menu-item-has-children .depth-0.is-active {
+    display: block;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    width: 100%;
+  }
+  .nav-bottom .menu-item-has-children .depth-1 {
+    display: none;
+  }
+  .nav-bottom .menu-item-has-children .depth-1.is-active {
+    display: block;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    width: 100%;
   }
 
   /* end moobs */

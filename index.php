@@ -35,5 +35,8 @@
 	<a href="" class="btn primary">Button text</a>
 	<a href="" class="btn secondary">Button Text</a>
 	</div>
+	<!-- scripts	 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/scripts-min.js"></script>
 </body>
 </html>
