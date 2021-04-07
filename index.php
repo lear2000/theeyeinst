@@ -3,40 +3,39 @@
 <head>
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css?v_=<?php echo time();?>">
 </head>
 <body>
-<?php include 'tmpl/snippet-header.php'; ?>
-<div class="fake">
-	<p>This is body copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do strong inline link ut labore et inline link hover dolore magna italic. Ut enim ad minim veniam, quis
-	nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-	<p><strong>This is body copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do strong inline link ut labore et inline link hover dolore magna italic. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </strong></p>
-	<h1>Heading One</h1>
-	<h2>Heading One</h2>
-	<h3>Heading One</h3>
-	<h4>Heading One</h4>
-	<h5>Heading One</h5>
+	<?php include 'tmpl/snippet-header.php'; ?>
 
-	<p>This is body copy: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do strong inline link ut labore et <a>inline link</a> hover dolore magna italic. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	<?php //include 'tmpl/fake.php'; ?>
 
-	<ul>
-		<li>Matt</li>
-		<li>Ruben</li>
-		<li>Seth</li>
-	</ul>
-	<ol>
-		<li>Matt</li>
-		<li>Ruben</li>
-		<li>Seth</li>
-	</ol>
+	<?php include 'tmpl/layout-1-2.php'; ?>
 
-	<a href="" class="btn">SEND</a>
-	<a href="" class="btn primary">Button text</a>
-	<a href="" class="btn secondary">Button Text</a>
-	</div>
+	<?php include 'tmpl/layout-1-2-reverse.php'; ?>
+
+	<?php include 'tmpl/layout-1-2-copy.php'; ?>
+
+	<?php include 'tmpl/layout-physicians.php'; ?>
+
+	<?php include 'tmpl/layout-new-heights.php'; ?>
+
+	
+
+
 	<!-- scripts	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/scripts-min.js"></script>
 </body>
 </html>
+
+
+<?php
+	//BrowserSync
+	$browserSyncPort 					= 8080;
+	$browserSync 			= 'http://127.0.0.1:'.$browserSyncPort;
+	$browserSyncHeaders 		= @get_headers($browserSync);
+	if($browserSyncHeaders): ?>
+		<script async src="<?php echo $browserSync;?>/browser-sync/browser-sync-client.js?v=2.18.8"></script>
+<?php endif; ?>
