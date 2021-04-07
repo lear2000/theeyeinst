@@ -46,7 +46,12 @@
 				</li>
 				<li><a href="">Vision 40+</a></li>
 				<li><a href="">Patient Stories</a></li>
-				<li class="menu-item-has-children"><a href="">Contact</a></li>
+				<li class="menu-item-has-children">
+					<a href="">Contact</a><div class="nav-plus"><span></span><span></span></div>
+					<ul class="sub-menu depth-0">
+						<li><a>Dropdown1 Portal</a></li>
+					</ul>
+				</li>
 			</ul>
 			<a class="h-tel" href="tel:(801) 980-3592">(801) 980-3592</a>
 		</nav>
