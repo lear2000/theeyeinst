@@ -15,7 +15,7 @@ footer{
 	padding-top: 6em;
 	@media screen and (max-width: 767px) {
 	  padding-top: 3em;
-	  padding-bottom: 3em;
+	  padding-bottom: 4.5em;
 	}
 	.container {
 		display: flex;
@@ -155,6 +155,44 @@ footer{
 					margin: 0 auto;
 				}
 			}
+		}
+	}
+}
+
+/* sticky */
+
+.sticky-bar {
+	display: flex;
+	visibility: hidden;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: color.$brand;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+	z-index: 10;
+	&.is-active {
+		visibility:visible;
+		opacity: 1;
+		transition: all .3s ease-in-out;
+	}
+	a {
+		color: #fff;
+		font-weight: normal;
+		text-decoration: none;
+		line-height: 1;
+		font-size: 15px;
+		margin-right: 1.5em;
+		width: 30px;
+		&:last-of-type {
+			text-align: center;
+			margin-right: 0;
+			padding-left: 1em;
+			width: auto;
 		}
 	}
 }

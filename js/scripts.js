@@ -16,5 +16,34 @@ jQuery(document).ready(function($) {
 			$(this).toggleClass('is-active');
 			$(this).next('.sub-menu').toggleClass('is-active');
 		});
+
+		//sticky bar
+
+		let lastKnownScrollPosition = 0;
+		let ticking = false;
+
+		function doSomething(scrollPos) {
+		  // Do something with the scroll position
+		  if (scrollPos > 200) {
+		  	$('.sticky-bar').addClass('is-active')
+		  } else {
+		  	$('.sticky-bar').removeClass('is-active')
+		  }
+		}
+
+		document.addEventListener('scroll', function(e) {
+		  lastKnownScrollPosition = window.scrollY;
+
+		  if (!ticking) {
+		    window.requestAnimationFrame(function() {
+		      doSomething(lastKnownScrollPosition);
+		      ticking = false;
+		    });
+
+		    ticking = true;
+		  }
+		});
+
+
 	} //mql
 })

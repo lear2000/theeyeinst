@@ -25,4 +25,10 @@
 		<p>Copyright © 2020 The Eye Institute of Utah  <span class="bar">|</span>  <a>Nondiscrimination Policy</a>  <span class="bar">|</span>  <a>Privacy Policy</a></p>
 	</div>
 </div>
+<div class="sticky-bar">
+	<a href="#"><img  loading="lazy" src="img/sticky-phone.svg" width="23" height="23" /></a>
+	<a href="#"><img  loading="lazy" src="img/sticky-cal.svg" width="22" height="26" /></a>
+	<a href="#"><img  loading="lazy" src="img/sticky-location.svg" width="17" height="26" /></a>
+	<a href="#">$2,020 off<br>LASIK PRK or ICL</a>
+</div>
 </footer>

@@ -644,7 +644,7 @@ footer {
 @media screen and (max-width: 767px) {
   footer {
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 4.5em;
   }
 }
 footer .container {
@@ -805,6 +805,46 @@ footer .f-bar-two ul a {
 }
 footer .f-bar-two ul a img {
   margin: 0 auto;
+}
+
+/* sticky */
+.sticky-bar {
+  display: -webkit-flex;
+  display: flex;
+  visibility: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #473E5C;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 70px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+.sticky-bar.is-active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.sticky-bar a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 15px;
+  margin-right: 1.5em;
+  width: 30px;
+}
+.sticky-bar a:last-of-type {
+  text-align: center;
+  margin-right: 0;
+  padding-left: 1em;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
