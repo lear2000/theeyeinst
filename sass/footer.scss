@@ -5,11 +5,18 @@
 	width: 100%;
 	min-height: 533px;
 	background-position: center top;
+	@media screen and (max-width: 767px) {
+	  min-height: 10em;
+	}
 }
 footer{
 	background-color: color.$secondary;
 	padding-bottom: 8em;
 	padding-top: 6em;
+	@media screen and (max-width: 767px) {
+	  padding-top: 3em;
+	  padding-bottom: 3em;
+	}
 	.container {
 		display: flex;
 		justify-content: center;
@@ -41,11 +48,24 @@ footer{
 	}
 	address {
 		text-align: center;
+		@media screen and (max-width: 767px) {
+		  margin-bottom: 2em;
+		  font-size: 18px;
+		}
 	}
 	.f-logo {
+		@media screen and (max-width: 767px) {
+
+		  margin-bottom: 2em;
+		}
 		img {
+			display: block;
 			max-width: 100%;
 			height: auto;
+			@media screen and (max-width: 767px) {
+			  margin: 0 auto;
+			  max-width: 247px;
+			}
 		}
 	}
 	.f-apts {
@@ -76,15 +96,41 @@ footer{
 		margin-bottom: 3em;
 		padding-left: 1em;
 		padding-right: 1em;
+		@media screen and (max-width: 767px) {
+		  margin-top: 3em;
+		  flex-wrap: wrap;
+		  align-items: center;
+		  margin-bottom: 2em;
+		}
 		& > * {
 			width: 33%;
+			@media screen and (max-width: 767px) {
+			  width: 100%;
+			}
 		}
 	}
 	.copyright {
+			 .bar {
+		  	display: inline-block;
+		  	margin-left: 5px;
+		  	margin-right: 5px;
+		  }
+		@media screen and (max-width: 767px) {
+		  padding:0 1em;
+		  .bar {
+		  	display: none;
+		  }
+		}
 		p {
 			font-size: 12px;
+			@media screen and (max-width: 767px) {
+			  text-align: center;
+			}
 			a {
 				font-weight: normal;
+				@media screen and (max-width: 767px) {
+				  display: block;
+				}
 			}
 		}
 	}

@@ -630,11 +630,22 @@ img {
   min-height: 533px;
   background-position: center top;
 }
+@media screen and (max-width: 767px) {
+  .mtns {
+    min-height: 10em;
+  }
+}
 
 footer {
   background-color: #423D4A;
   padding-bottom: 8em;
   padding-top: 6em;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
 }
 footer .container {
   display: -webkit-flex;
@@ -672,9 +683,27 @@ footer p, footer a, footer address, footer span {
 footer address {
   text-align: center;
 }
+@media screen and (max-width: 767px) {
+  footer address {
+    margin-bottom: 2em;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .f-logo {
+    margin-bottom: 2em;
+  }
+}
 footer .f-logo img {
+  display: block;
   max-width: 100%;
   height: auto;
+}
+@media screen and (max-width: 767px) {
+  footer .f-logo img {
+    margin: 0 auto;
+    max-width: 247px;
+  }
 }
 footer .f-apts span {
   font-size: 21px;
@@ -705,14 +734,52 @@ footer .f-bar-one {
   padding-left: 1em;
   padding-right: 1em;
 }
+@media screen and (max-width: 767px) {
+  footer .f-bar-one {
+    margin-top: 3em;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-items: center;
+            align-items: center;
+    margin-bottom: 2em;
+  }
+}
 footer .f-bar-one > * {
   width: 33%;
+}
+@media screen and (max-width: 767px) {
+  footer .f-bar-one > * {
+    width: 100%;
+  }
+}
+footer .copyright .bar {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 767px) {
+  footer .copyright {
+    padding: 0 1em;
+  }
+  footer .copyright .bar {
+    display: none;
+  }
 }
 footer .copyright p {
   font-size: 12px;
 }
+@media screen and (max-width: 767px) {
+  footer .copyright p {
+    text-align: center;
+  }
+}
 footer .copyright p a {
   font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+  footer .copyright p a {
+    display: block;
+  }
 }
 footer .f-bar-two {
   margin-bottom: 3em;

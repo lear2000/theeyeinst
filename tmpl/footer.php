@@ -22,7 +22,7 @@
 		</ul>
 	</div>
 	<div class="copyright">
-		<p>Copyright © 2020 The Eye Institute of Utah  |  <a>Nondiscrimination Policy</a>  |  <a>Privacy Policy</a></p>
+		<p>Copyright © 2020 The Eye Institute of Utah  <span class="bar">|</span>  <a>Nondiscrimination Policy</a>  <span class="bar">|</span>  <a>Privacy Policy</a></p>
 	</div>
 </div>
 </footer>
