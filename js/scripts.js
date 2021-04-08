@@ -18,11 +18,10 @@ jQuery(document).ready(function($) {
 		});
 
 		//sticky bar
-
 		let lastKnownScrollPosition = 0;
 		let ticking = false;
 
-		function doSomething(scrollPos) {
+		function doSomethingscolly(scrollPos) {
 		  // Do something with the scroll position
 		  if (scrollPos > 200) {
 		  	$('.sticky-bar').addClass('is-active')
@@ -36,7 +35,7 @@ jQuery(document).ready(function($) {
 
 		  if (!ticking) {
 		    window.requestAnimationFrame(function() {
-		      doSomething(lastKnownScrollPosition);
+		      doSomethingscolly(lastKnownScrollPosition);
 		      ticking = false;
 		    });
 

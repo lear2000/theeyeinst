@@ -1,10 +1,28 @@
 <div class="mtns"></div>
 <footer>
+	<!-- footer button -->
 	<div class="container">
 		<h2><span>Schedule a</span>
 		Free Consultation</h2>
 		<a href="#contact" class="btn secondary">Contact Us</a>
 	</div>
+	<!-- footer button -->
+
+	<!-- footer form small -->
+	<div class="container formsmall">
+		<h2><span>Wondering if Visian ICL is Right for You?</span>
+		Schedule a Consultation Today</h2>
+		<form>
+			<div><input type="text" name="" placeholder="TEXT"></div>
+			<div><input type="text" name="" placeholder="TEXT"></div>
+			<div><input type="text" name="" placeholder="TEXT"></div>
+			<div><input type="text" name="" placeholder="TEXT"></div>
+			<div class="submit-wrap"><input class="submit-btn btn secondary" type="submit" name="" value="Send"></div>
+			<small>By completing this contact form and providing your email address, you are opting in to receive email communications from The Eye Institute of Utah. You may choose to opt-out of future email communications at any time.</small>
+		</form>
+	</div>
+	<!-- footer form small -->
+
 	<div class="container">
 	<div class="f-bar-one">
 		<span class="f-logo"><img src="img/logo-white.svg" alt="Logo White" width="247" height="72" /></span>
