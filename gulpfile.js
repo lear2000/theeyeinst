@@ -12,10 +12,13 @@
     gulp-newer        : "1.3.0"
 */
 
-// Gulp and plugins
+/**
+ * Gulp and plugins
+ */
+
+
 const gulp          = require('gulp');// still have to run npm install for gulp
 const gutil         = require('gulp-util');
-//const sass          = require('gulp-sass');
 const sass 					= require('gulp-dart-sass');
 const postcss       = require('gulp-postcss');
 const autoprefixer  = require('autoprefixer');
@@ -24,20 +27,20 @@ const jshint        = require('gulp-jshint');
 const newer         = require('gulp-newer');
 
 
-//sass.compiler = require('sass');
-
-/* src paths*/
+/**
+ * src paths
+ */
 
 const _SRC = {
     js : 'js/scripts.js',
     sass : 'sass/**/*.scss'
 };
 
-/* BrowserSync */
+/** 
+ * BrowserSync
+*/
 
-
-
-function _BS(done){
+function _brosersync(done){
     const myPort  = 8080; //update this to your port
     const myHost  = '127.0.0.1';//update this to your local ip
     browserSync.init({
@@ -53,18 +56,21 @@ function _BS(done){
     done();
 }
 
-// /* JS Hint */
+/**
+ * Javascript
+ */
 
-// function _JS(){
-//     return gulp.src(_SRC.js)
-//     .pipe(jshint())
-//     .pipe(jshint.reporter('jshint-stylish'))
-//     .pipe(browserSync.reload({stream: true}));
-// }
+function _JS(){
+    return gulp.src(_SRC.js)
+    .pipe(jshint())
+    //.pipe(jshint.reporter('jshint-stylish'))
+    .pipe(browserSync.reload({stream: true}));
+}
 
-/* 
-    Styling 
+/** 
+ * Styling 
 */
+
 function _CSS(done){
     return gulp.src(_SRC.sass)
     .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
@@ -73,10 +79,20 @@ function _CSS(done){
     .pipe(browserSync.reload({stream: true}));
 };
 
-// WATCH
+/**
+ * WATCH
+ */ 
+
 function watchFiles(){
-    gulp.watch(_SRC.sass , _CSS);    
+	gulp.watch(_SRC.sass , _CSS);
+	gulp.watch(_SRC.js , _JS);
 }
 
-gulp.task("watch",gulp.series( _BS , watchFiles));
+/** 
+ * Run Task: 
+ * + Watch CSS / JS
+ * + Run LiveReload
+*/
+	
+gulp.task("watch",gulp.series( _brosersync , watchFiles));
 

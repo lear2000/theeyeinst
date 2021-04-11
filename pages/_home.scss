@@ -1,0 +1,55 @@
+@use "colors" as *;
+
+.layout-1-2-type__index{
+
+	.layout-1-2__text{
+		background-image: url("img/watermark-1.png");
+		background-position: bottom right;
+		padding: 40px 20px 50px;
+
+		.is-heading{
+			font-size: 27px;
+			font-weight: bold;
+
+			span{
+				font-weight: 300;
+			}
+
+		}
+
+		a{
+			border-bottom: 1px solid;
+			color: $brand;
+			display: inline-block;
+			font-weight: 500;
+			padding-bottom: 1px;
+			text-decoration: none;
+		}
+
+	}
+
+	.layout-1-2-reverse__text{
+		background-image: url("img/watermark-2.png");
+		background-position: bottom left;
+		padding: 50px 20px 50px;
+
+		.is-heading{
+			line-height: normal;
+		}
+
+		a{
+			margin-top: 30px;
+			
+		}
+
+	}
+}
+
+
+@media only screen and (min-width: 960px) {
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+
+
+

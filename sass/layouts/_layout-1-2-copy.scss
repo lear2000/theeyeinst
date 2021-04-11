@@ -1,0 +1,41 @@
+@use "colors" as *;
+
+.layout-1-2-copy{
+
+	padding: 100px 30px 50px;
+
+	&__copy-1{
+		font-size: 22px;
+		font-weight:  $font-weight-light;
+	}
+
+	&__copy-2{
+		font-size: 18px;
+		font-weight:  $font-weight-normal;
+	}
+
+}
+
+
+@media only screen and (min-width: 960px) {
+	.layout-1-2-copy{
+
+
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 135px;
+		padding-bottom: 140px;
+
+		&__wrapper{
+			max-width: $max-width-container;
+			margin: 0 auto;
+			display: flex;
+		}
+
+		&__copy-1{
+			margin-right: 50px;
+			align-items: baseline;
+		}
+	}
+	
+}

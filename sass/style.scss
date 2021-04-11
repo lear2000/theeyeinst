@@ -1,17 +1,21 @@
 @use "reset";
-
-@use "_helpers";
-
+@use "helpers";
 @use "font";
-
 @use "main";
-
 @use "header";
 
-// components
+// plugins
 
-@use "components/_layout-1-2.scss";
-@use "components/_layout-1-2-copy.scss";
-@use "components/_layout-physicians.scss";
-@use "components/_layout-new-heights.scss";
+@use "plugins/slick";
+
+// layouts
+@use "layouts/layout-1-2";
+@use "layouts/layout-1-2-copy";
+@use "layouts/layout-physicians";
+@use "layouts/layout-new-heights";
+@use "layouts/layout-rating-quote";
+
+
+// pages
+//@use "pages/home";
 

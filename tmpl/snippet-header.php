@@ -1,6 +1,6 @@
 <div class="banner">Current COVID-19 Safety Protocols</div>
 <header>
-	<a href="#" class="logo"><img src="img/logo.svg" alt="Logo" width="173.087" height="48.026"/></a>
+	<a href="#" class="logo"><img src="<?php echo get_template_directory_uri( );?>/img/logo.svg" alt="Logo" width="173.087" height="48.026"/></a>
 	<div class="nav-wraps">
 		<div class="burger">
 			<span class="bar1"></span>

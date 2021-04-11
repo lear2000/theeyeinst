@@ -11,22 +11,16 @@
 
 	<?php //include 'tmpl/fake.php'; ?>
 
-	<?php include 'tmpl/layout-1-2.php'; ?>
+	<!-- home page -->
+	<?php include 'tmpl/page-home.php'?>
 
-	<?php include 'tmpl/layout-1-2-reverse.php'; ?>
-
-	<?php include 'tmpl/layout-1-2-copy.php'; ?>
-
-	<?php include 'tmpl/layout-physicians.php'; ?>
-
-	<?php include 'tmpl/layout-new-heights.php'; ?>
-
-	
 
 
 	<!-- scripts	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="js/scripts-min.js"></script>
+	<script src="<?php echo get_template_directory_uri( );?>/js/slick.min.js"></script>
+	<script src="<?php echo get_template_directory_uri( );?>/js/scripts.js"></script>
+
 </body>
 </html>
 
