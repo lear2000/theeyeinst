@@ -91,6 +91,20 @@
 }
 
 
+// inside
+
+.layout-1-2-type__inner{
+	
+	.is-heading{
+		font-weight: $font-weight-bold;
+	}
+
+	.layout-1-2__text{
+		padding: 40px;
+	}
+
+}
+
 // desktop
 @media only screen and (min-width: 960px) {
 	

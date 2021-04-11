@@ -117,6 +117,9 @@ body {
   font-size: 16px;
   line-height: 2;
   color: #4D4D4D;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 body.is-active {
   overflow: hidden;
@@ -202,6 +205,7 @@ ol {
   color: #fff;
   font-weight: 400;
   text-decoration: none;
+  text-align: center;
   font-size: 0.94em;
   display: inline-block;
   padding-left: 2em;
@@ -472,6 +476,18 @@ img {
     line-height: 1.5;
   }
 }
+@media screen and (min-width: 1025px) {
+  header .nav-bottom ul li:last-of-type.menu-item-has-children:hover .sub-menu.depth-0 {
+    left: -250px;
+  }
+  header .nav-bottom ul li:last-of-type.menu-item-has-children:hover .sub-menu.depth-0 li {
+    padding-right: 1.5em;
+    padding-left: 8px;
+  }
+  header .nav-bottom ul li:last-of-type.menu-item-has-children:hover .sub-menu.depth-0 a {
+    text-align: right;
+  }
+}
 @media screen and (max-width: 1024px) {
   .banner {
     background-color: #FAFAFA;
@@ -657,6 +673,354 @@ img {
 
   /* end moobs */
 }
+.mtns {
+  background-image: url(img/footer-mts.svg);
+  background-size: cover;
+  width: 100%;
+  min-height: 533px;
+  background-position: center top;
+}
+@media screen and (max-width: 767px) {
+  .mtns {
+    min-height: 10em;
+  }
+}
+
+footer {
+  background-color: #423D4A;
+  padding-bottom: 8em;
+  padding-top: 6em;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    padding-top: 3em;
+    padding-bottom: 4.5em;
+  }
+}
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+footer h2 {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 1em;
+  line-height: 1;
+}
+footer h2 span {
+  font-size: 25px;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+footer .btn {
+  min-width: 320px;
+}
+footer p, footer a, footer address, footer span {
+  color: #fff;
+}
+footer address {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  footer address {
+    margin-bottom: 2em;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .f-logo {
+    margin-bottom: 2em;
+  }
+}
+footer .f-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 767px) {
+  footer .f-logo img {
+    margin: 0 auto;
+    max-width: 247px;
+  }
+}
+footer .f-apts span {
+  font-size: 21px;
+  font-weight: 300;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1;
+}
+footer .f-apts a {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+footer .f-bar-one {
+  width: 100%;
+  max-width: 1080px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 6em;
+  margin-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+@media screen and (max-width: 767px) {
+  footer .f-bar-one {
+    margin-top: 3em;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 2em;
+  }
+}
+footer .f-bar-one > * {
+  width: 33%;
+}
+@media screen and (max-width: 767px) {
+  footer .f-bar-one > * {
+    width: 100%;
+  }
+}
+footer .copyright .bar {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 767px) {
+  footer .copyright {
+    padding: 0 1em;
+  }
+  footer .copyright .bar {
+    display: none;
+  }
+}
+footer .copyright p {
+  font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+  footer .copyright p {
+    text-align: center;
+  }
+}
+footer .copyright p a {
+  font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+  footer .copyright p a {
+    display: block;
+  }
+}
+footer .f-bar-two {
+  margin-bottom: 3em;
+}
+footer .f-bar-two ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .f-bar-two ul li {
+  width: 30px;
+}
+footer .f-bar-two ul li:nth-child(2) {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+footer .f-bar-two ul a {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+footer .f-bar-two ul a img {
+  margin: 0 auto;
+}
+
+footer .formsmall {
+  margin-top: 3em;
+}
+footer .formsmall .submit-btn {
+  min-width: initial;
+  margin-left: 1em;
+}
+footer .formsmall form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  footer .formsmall form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  footer .formsmall form .submit-wrap {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+    margin-top: 1em;
+  }
+  footer .formsmall form div {
+    width: 25%;
+  }
+}
+footer .formsmall form small {
+  line-height: 1.5;
+  display: block;
+  margin-top: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+footer .formsmall form input {
+  height: 48px;
+  font-size: 1em;
+  color: #A8A8A8;
+}
+footer .formsmall form input:not(.submit-btn) {
+  display: block;
+  text-indent: 1em;
+  font-style: italic;
+  width: 100%;
+}
+footer .formsmall form input:not(.submit-btn)::-webkit-input-placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+footer .formsmall form input:not(.submit-btn)::-moz-placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+footer .formsmall form input:not(.submit-btn):-ms-input-placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+footer .formsmall form input:not(.submit-btn)::-ms-input-placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+footer .formsmall form input:not(.submit-btn)::placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+@media screen and (min-width: 1024px) {
+  footer .formsmall form input:not(.submit-btn) {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .formsmall form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .formsmall form div {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+/* sticky */
+.sticky-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #473E5C;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+.sticky-bar.is-active {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.sticky-bar a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 15px;
+  margin-right: 1.5em;
+  width: 30px;
+}
+.sticky-bar a:last-of-type {
+  text-align: center;
+  margin-right: 0;
+  padding-left: 1em;
+  width: auto;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -842,6 +1206,13 @@ img {
 }
 .layout-1-2-type__index .layout-1-2-reverse__text a {
   margin-top: 30px;
+}
+
+.layout-1-2-type__inner .is-heading {
+  font-weight: 600;
+}
+.layout-1-2-type__inner .layout-1-2__text {
+  padding: 40px;
 }
 
 @media only screen and (min-width: 960px) {

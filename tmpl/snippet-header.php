@@ -1,6 +1,6 @@
 <div class="banner">Current COVID-19 Safety Protocols</div>
 <header>
-	<a href="#" class="logo"><img src="<?php echo get_template_directory_uri( );?>/img/logo.svg" alt="Logo" width="173.087" height="48.026"/></a>
+	<a href="#" class="logo"><img src="<?php echo get_template_directory_uri();?>/img/logo.svg" alt="Logo" width="173.087" height="48.026"/></a>
 	<div class="nav-wraps">
 		<div class="burger">
 			<span class="bar1"></span>
@@ -46,7 +46,12 @@
 				</li>
 				<li><a href="">Vision 40+</a></li>
 				<li><a href="">Patient Stories</a></li>
-				<li class="menu-item-has-children"><a href="">Contact</a></li>
+				<li class="menu-item-has-children">
+					<a href="">Contact</a><div class="nav-plus"><span></span><span></span></div>
+					<ul class="sub-menu depth-0">
+						<li><a>Dropdown1 Portal</a></li>
+					</ul>
+				</li>
 			</ul>
 			<a class="h-tel" href="tel:(801) 980-3592">(801) 980-3592</a>
 		</nav>

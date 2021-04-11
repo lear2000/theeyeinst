@@ -12,9 +12,13 @@
 	<?php //include 'tmpl/fake.php'; ?>
 
 	<!-- home page -->
-	<?php include 'tmpl/page-home.php'?>
+	<?php //include 'tmpl/page-home.php'?>
+
+	<!-- home page -->
+	<?php include 'tmpl/page-vision-icl.php'?>
 
 
+	<?php include 'tmpl/footer.php'; ?>
 
 	<!-- scripts	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

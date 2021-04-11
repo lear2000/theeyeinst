@@ -181,6 +181,22 @@
 			}
 		}
 }
+@media screen and (min-width: 1025px) {
+	header .nav-bottom ul {
+		li:last-of-type {
+			&.menu-item-has-children:hover .sub-menu.depth-0 {
+				left: -250px;
+				li {
+						padding-right: 1.5em;
+						padding-left: 8px;
+				}
+				 a {
+				 	text-align: right;
+				 }
+			}
+		}
+	}
+}
 
 @media screen and (max-width: 1024px) {
 
