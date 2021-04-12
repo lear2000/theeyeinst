@@ -162,11 +162,22 @@ footer{
 }
 
 footer {
+	.btn.third {
+		text-transform: uppercase;
+	}
 	.formsmall {
 		margin-top: 3em;
 		.submit-btn {
 			min-width:initial;
 			margin-left: 1em;
+			cursor: pointer;
+			background-color: color.$navitem;
+			color: #fff;
+			transition: all .3s ease-in-out;
+			text-transform: uppercase;
+			&:hover {
+					background-color: color.$purple;
+			}
 		}
 		form {
 			display: flex;

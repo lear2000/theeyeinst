@@ -4,7 +4,7 @@
 	<div class="container">
 		<h2><span>Schedule a</span>
 		Free Consultation</h2>
-		<a href="#contact" class="btn secondary">Contact Us</a>
+		<a href="#contact" class="btn third">Contact Us</a>
 	</div>
 	<!-- footer button -->
 
@@ -17,7 +17,7 @@
 			<div><input type="text" name="" placeholder="TEXT"></div>
 			<div><input type="text" name="" placeholder="TEXT"></div>
 			<div><input type="text" name="" placeholder="TEXT"></div>
-			<div class="submit-wrap"><input class="submit-btn btn secondary" type="submit" name="" value="Send"></div>
+			<div class="submit-wrap"><input class="submit-btn btn" type="submit" name="" value="Send"></div>
 			<small>By completing this contact form and providing your email address, you are opting in to receive email communications from The Eye Institute of Utah. You may choose to opt-out of future email communications at any time.</small>
 		</form>
 	</div>

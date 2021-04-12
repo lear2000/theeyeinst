@@ -241,6 +241,16 @@ ol {
   transition: all 0.3s ease-in-out;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
+.btn.third {
+  background-color: #4E3A6A;
+  transition: all 0.3s ease-in-out;
+}
+.btn.third:hover {
+  background-color: #7832D0;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
 
 img {
   display: block;
@@ -809,12 +819,23 @@ footer .f-bar-two ul a img {
   margin: 0 auto;
 }
 
+footer .btn.third {
+  text-transform: uppercase;
+}
 footer .formsmall {
   margin-top: 3em;
 }
 footer .formsmall .submit-btn {
   min-width: initial;
   margin-left: 1em;
+  cursor: pointer;
+  background-color: #4E3A6A;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+footer .formsmall .submit-btn:hover {
+  background-color: #7832D0;
 }
 footer .formsmall form {
   display: -webkit-flex;

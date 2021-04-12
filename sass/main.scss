@@ -132,6 +132,16 @@ ol {
 			border: 1px solid 	rgba(255, 255, 255, .5);
 		}
 	}
+	&.third {
+		background-color: color.$navitem;
+		transition: all .3s ease-in-out;
+		&:hover {
+			background-color: color.$purple;
+			color: #fff;
+			transition: all .3s ease-in-out;
+			border: 1px solid 	rgba(255, 255, 255, .5);
+		}
+	}
 }
 
 
