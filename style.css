@@ -63,6 +63,12 @@ pre {
   font-size: 1em !important;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* lato-300 - latin */
 @font-face {
   font-family: "Lato";
@@ -819,13 +825,39 @@ footer .f-bar-two ul a img {
   margin: 0 auto;
 }
 
+footer {
+  /* all forms */
+  /* form large */
+  /* form small */
+}
 footer .btn.third {
   text-transform: uppercase;
 }
-footer .formsmall {
-  margin-top: 3em;
+footer form div {
+  margin-bottom: 1em;
 }
-footer .formsmall .submit-btn {
+footer form small {
+  line-height: 1.5;
+  display: block;
+  margin-top: 1em;
+  -webkit-flex-grow: 1;
+          flex-grow: 1;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+}
+footer form .type-submitbutton {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-flex: 1;
+          flex: 1;
+}
+footer form .submit-btn {
   min-width: initial;
   margin-left: 1em;
   cursor: pointer;
@@ -834,8 +866,140 @@ footer .formsmall .submit-btn {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
 }
-footer .formsmall .submit-btn:hover {
+footer form .submit-btn:hover {
   background-color: #7832D0;
+}
+footer form input {
+  height: 48px;
+  font-size: 1em;
+  color: #A8A8A8;
+}
+footer form input:not(.submit-btn) {
+  display: block;
+  text-indent: 1em;
+  font-style: italic;
+  width: 100%;
+}
+footer form input:not(.submit-btn)::-webkit-input-placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+footer form input:not(.submit-btn)::-moz-placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+footer form input:not(.submit-btn):-ms-input-placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+footer form input:not(.submit-btn)::placeholder {
+  opacity: 1;
+  color: #A8A8A8;
+  font-style: italic;
+  font-size: 1em;
+}
+@media screen and (min-width: 1024px) {
+  footer form input:not(.submit-btn) {
+    width: 100%;
+  }
+}
+footer form select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-weight: normal;
+  font-size: 1em;
+  color: #A8A8A8;
+  padding-left: 1em;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  outline: 0;
+  box-shadow: none;
+  background-image: none;
+  position: relative;
+  font-style: italic;
+  border: none;
+}
+footer form .type-selectbox {
+  position: relative;
+}
+footer form .type-selectbox::after {
+  content: url(img/down-arrow.svg);
+  position: absolute;
+  top: 52%;
+  right: 1em;
+  cursor: pointer;
+  pointer-events: none;
+  width: 9.48px;
+  height: 9.48px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+footer .formlarge form {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+footer .formlarge form div {
+  width: 48%;
+  display: inline-block;
+}
+footer .formlarge form div:nth-child(odd) {
+  margin-right: 4%;
+}
+footer .formlarge form div.type-textarea {
+  margin-right: 0;
+  width: 100%;
+}
+footer .formlarge form div.type-textarea textarea {
+  width: 100%;
+  min-height: 160px;
+  border: 1px solid #E3E3E3;
+}
+footer .formlarge small {
+  color: #A8A8A8;
+}
+footer .formlarge input:not(.submit-btn)::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 0;
+}
+footer .formlarge input:not(.submit-btn)::-moz-placeholder {
+  color: #fff;
+  opacity: 0;
+}
+footer .formlarge input:not(.submit-btn):-ms-input-placeholder {
+  color: #fff;
+  opacity: 0;
+}
+footer .formlarge input:not(.submit-btn)::placeholder {
+  color: #fff;
+  opacity: 0;
+}
+footer .formlarge label {
+  display: block;
+  color: #A8A8A8;
+  font-style: italic;
+  text-indent: 1em;
+}
+footer .formlarge .type-submitbutton {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+footer .formlarge .type-submitbutton input {
+  margin-left: 0;
+}
+footer .formsmall {
+  margin-top: 3em;
 }
 footer .formsmall form {
   display: -webkit-flex;
@@ -865,56 +1029,8 @@ footer .formsmall form {
   }
 }
 footer .formsmall form small {
-  line-height: 1.5;
-  display: block;
-  margin-top: 1em;
-  -webkit-flex-grow: 1;
-          flex-grow: 1;
-  width: 100%;
   color: #fff;
   text-align: center;
-  font-size: 14px;
-  font-weight: 300;
-}
-footer .formsmall form input {
-  height: 48px;
-  font-size: 1em;
-  color: #A8A8A8;
-}
-footer .formsmall form input:not(.submit-btn) {
-  display: block;
-  text-indent: 1em;
-  font-style: italic;
-  width: 100%;
-}
-footer .formsmall form input:not(.submit-btn)::-webkit-input-placeholder {
-  opacity: 1;
-  color: #A8A8A8;
-  font-style: italic;
-  font-size: 1em;
-}
-footer .formsmall form input:not(.submit-btn)::-moz-placeholder {
-  opacity: 1;
-  color: #A8A8A8;
-  font-style: italic;
-  font-size: 1em;
-}
-footer .formsmall form input:not(.submit-btn):-ms-input-placeholder {
-  opacity: 1;
-  color: #A8A8A8;
-  font-style: italic;
-  font-size: 1em;
-}
-footer .formsmall form input:not(.submit-btn)::placeholder {
-  opacity: 1;
-  color: #A8A8A8;
-  font-style: italic;
-  font-size: 1em;
-}
-@media screen and (min-width: 1024px) {
-  footer .formsmall form input:not(.submit-btn) {
-    width: 100%;
-  }
 }
 @media screen and (max-width: 767px) {
   footer .formsmall form {

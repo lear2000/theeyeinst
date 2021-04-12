@@ -58,3 +58,8 @@ pre {
 	color: black!important;
 	font-size: 1em!important;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
