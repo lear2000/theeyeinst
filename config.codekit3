@@ -9,6 +9,26 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/blog.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/blog.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog.css.map",
+      "oF" : 0
+    },
     "\/blog.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -120,6 +140,19 @@
       "oA" : 0,
       "oAP" : "\/header.css.map",
       "oF" : 0
+    },
+    "\/img\/art-img.jpg" : {
+      "ft" : 16384,
+      "iS" : 23864,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/art-img.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/down-arrow.svg" : {
       "ft" : 2097152,
@@ -344,6 +377,20 @@
       "oAP" : "\/mixins.css.map",
       "oF" : 0
     },
+    "\/sass\/blog.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/blog.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/blogbar.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -566,6 +613,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/location-withmap.php",
+      "oF" : 0
+    },
+    "\/tmpl\/snippet-article.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/snippet-article.php",
       "oF" : 0
     },
     "\/tmpl\/snippet-blogbar.php" : {

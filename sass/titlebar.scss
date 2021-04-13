@@ -23,13 +23,16 @@
 	}
 	@media screen and (max-width: 767px) {
 	  max-width: 100%;
-	  	min-height: 90px;
+	  	min-height: 80px;
 	  	background-position: 100%;
 	  	background-size: 30vh auto;
 	}
 	h1 {
 		font-size: 40px;
 		font-weight: 600;
-		margin-bottom: 0
+		margin-bottom: 0;
+		@media screen and (max-width: 767px) {
+		  font-size: 2em;
+		}
 	}
 }
