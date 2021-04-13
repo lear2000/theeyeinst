@@ -223,6 +223,9 @@
   	align-items: center;
   	padding-left: 1.5em;
   	padding-right: 1.5em;
+  	@media screen and (max-width: 1024px) {
+  	  padding-bottom: 1em;
+  	}
   }
   .nav-top {
   	display: none;

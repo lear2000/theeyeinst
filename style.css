@@ -506,14 +506,24 @@ img {
     padding-right: 1.5em;
   }
 
+  /* end moobs */
+}
+@media screen and (max-width: 1024px) and (max-width: 1024px) {
+  header {
+    padding-bottom: 1em;
+  }
+}
+@media screen and (max-width: 1024px) {
   .nav-top {
     display: none;
   }
-
+}
+@media screen and (max-width: 1024px) {
   .nav-bottom .h-tel {
     display: none;
   }
-
+}
+@media screen and (max-width: 1024px) {
   .burger {
     display: inline-block;
     cursor: pointer;
@@ -540,7 +550,8 @@ img {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
   }
-
+}
+@media screen and (max-width: 1024px) {
   .nav-bottom {
     position: fixed;
     top: calc(48px + 34px);
@@ -636,8 +647,6 @@ img {
             flex-grow: 1;
     width: 100%;
   }
-
-  /* end moobs */
 }
 .locmap {
   padding-top: 1em;
@@ -705,6 +714,69 @@ img {
     padding-top: 1em;
     padding-bottom: 1em;
   }
+}
+
+.wideheader {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+.wideheader .wh-bg {
+  display: block;
+  min-height: 318px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+@media screen and (max-width: 767px) {
+  .wideheader .wh-bg {
+    min-height: 20vh;
+  }
+}
+
+.titlebar {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  overflow: hidden;
+  box-shadow: 0 13px 16px rgba(0, 0, 0, 0.18);
+  background-image: url(img/titlebarlogo.svg);
+  background-repeat: no-repeat;
+  background-size: 367px 362px;
+  background-position: right center;
+  min-height: 133px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  background-color: #FAFAFA;
+  z-index: 2;
+  position: relative;
+}
+@media screen and (max-width: 980px) {
+  .titlebar {
+    background-position: 130%;
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .titlebar {
+    max-width: 100%;
+    min-height: 90px;
+    background-position: 100%;
+    background-size: 30vh auto;
+  }
+}
+.titlebar h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .mtns {

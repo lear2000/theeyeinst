@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/blog.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog.php",
+      "oF" : 0
+    },
     "\/fonts\/lato-v17-latin-300.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -212,6 +220,29 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/titlebarlogo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/titlebarlogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/wideheader.jpg" : {
+      "ft" : 16384,
+      "iS" : 835541,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/wideheader.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/youtube-white.svg" : {
       "ft" : 2097152,
@@ -419,6 +450,34 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/titlebar.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/titlebar.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/sass\/wideheader.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/wideheader.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -437,6 +496,26 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/style.css.map",
+      "oF" : 0
+    },
+    "\/titlebar.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/titlebar-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/titlebar.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/titlebar.css.map",
       "oF" : 0
     },
     "\/tmpl\/footer.php" : {
@@ -461,6 +540,26 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/snippet-header.php",
+      "oF" : 0
+    },
+    "\/wideheader.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/wideheader-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/wideheader.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/wideheader.css.map",
       "oF" : 0
     }
   },
