@@ -3,8 +3,8 @@
 .layout-physicians{
 
 	background-image: url("img/background-mountains-1.png");
-	background-repeat: no-repeat;
 	background-position: center top;
+	background-repeat: no-repeat;
 	padding-top: 325px;
 
 	&__wrapper{
@@ -18,17 +18,16 @@
 	}
 
 	&__list{
-		
-		padding-left: 20px;
-		padding-top: 10px;
-		padding-bottom: 25px;
 		display: flex;
 		list-style-type: none;
+		margin-bottom: 50px;
 		margin: 0;
-    margin-left: -10px;
 		overflow-x: scroll;
 		overflow: hidden;
-		margin-bottom: 50px;
+		padding-bottom: 25px;
+		padding-left: 20px;
+		padding-top: 10px;
+    margin-left: -10px;
 		
 		&-item{
 			background-color: $white;
@@ -53,6 +52,7 @@
 
 	&__list-item-text{
 		line-height: normal;
+		
 		span{
 			display: block;
 		}
@@ -76,15 +76,16 @@
 		padding-top: 250px;
 
 		&__wrapper{
-			padding: 0;
-			display: flex;
-			max-width: $max-width-container;
-			margin: 0 auto;
 			align-items: center;
+			display: flex;
+			margin: 0 auto;
+			max-width: $max-width-container;
+			padding: 0;
 		}
 
 		&__left{
 			flex-grow: 0;
+
 			.is-heading{
 				font-size: 22px;
 				margin: 0;
@@ -98,14 +99,15 @@
 		}
 
 		&__list{
-			overflow: visible;
 			flex-wrap: wrap;
+			overflow: visible;
 			padding: 0;
 			
 			&-item{
 				margin: 0px 10px 25px 10px;
-				width: 100%;
 				max-width: calc((100% / 3) - 20px);
+				width: 100%;
+
 				img{
 					width: 100%;
 				}

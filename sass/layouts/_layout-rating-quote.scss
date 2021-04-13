@@ -2,17 +2,18 @@
 
 .layout-rating-quote{
 	color: $darkgray;
-	padding-top: 80px;
 	padding-bottom: 80px;
+	padding-top: 80px;
 
 	&__quote{
 
 		.is-heading{
 			color: $darkgray;
 			font-size: 27px;
+			font-style: italic;
 			font-weight: $font-weight-light;
 			line-height: 1.4;
-			font-style: italic;
+
 			b{
 				font-weight: 400;
 			}
@@ -32,6 +33,7 @@
 	&__rating-average-text{
 		line-height: 1.5;
 		margin-top: 20px;
+
 		span{
 			display: block;
 		}
@@ -50,14 +52,15 @@
 	}
 
 	&__rating-link{
-		margin-top: 50px;
 		font-size: 14px;
+		margin-top: 50px;
+
 		a{
+			border-bottom: 1px solid;
 			color: $darkgray;
 			font-weight: $font-weight-normal;
-			text-decoration: none;
-			border-bottom: 1px solid;
 			padding-bottom: 4px;
+			text-decoration: none;
 		}
 	}
 }
@@ -65,14 +68,15 @@
 
 // desktop
 @media only screen and (min-width: 960px) {
+	
 	.layout-rating-quote{
 		color: $darkgray;
-		padding-top: 80px;
 		padding-bottom: 80px;
+		padding-top: 80px;
 
 		&__quote{
+			margin: 0 auto;
 			max-width: 770px;
-			margin:0 auto;
 		}
 
 		&__rating{
@@ -86,9 +90,9 @@
 
 		&__rating-average-text{
 			
-			margin-top: 0;
 			margin-left: 25px;
 			margin-right: 100px;
+			margin-top: 0;
 
 			span.layout-rating-quote__rating-average-text-1,
 			span.layout-rating-quote__rating-average-text-2{
