@@ -36,7 +36,10 @@
 	<a href="" class="btn secondary">Button Text</a>
 	</div>
 
+	<?php include 'tmpl/location-withmap.php'; ?>
+
 	<?php include 'tmpl/footer.php'; ?>
+
 
 	<!-- scripts	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

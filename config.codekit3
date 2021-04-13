@@ -153,6 +153,26 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/mapblock-mobile.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/mapblock-mobile.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/mapblock.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/mapblock.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/right-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -233,6 +253,26 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/location.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/location-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/location.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/location.css.map",
+      "oF" : 0
+    },
     "\/mixins.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -304,6 +344,20 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/header.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/sass\/location.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/location.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0,
@@ -391,6 +445,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/footer.php",
+      "oF" : 0
+    },
+    "\/tmpl\/location-withmap.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/location-withmap.php",
       "oF" : 0
     },
     "\/tmpl\/snippet-header.php" : {

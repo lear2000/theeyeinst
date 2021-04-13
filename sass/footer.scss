@@ -189,7 +189,6 @@ footer {
 		}
 		.submit-btn {
 			min-width:initial;
-			margin-left: 1em;
 			cursor: pointer;
 			background-color: color.$navitem;
 			color: #fff;
@@ -209,6 +208,9 @@ footer {
 		 	text-indent: 1em;
 		 	font-style: italic;
 		 	width: 100%;
+		 	height: 48px;
+		 	background-color: #fff;
+		 	border:1px solid #E3E3E3;
 			&::placeholder {
 				opacity: 1;
 				color: #A8A8A8;
@@ -225,17 +227,20 @@ footer {
 			font-weight: normal;
 			font-size: 1em;
 			color: #A8A8A8;
-			padding-left: 1em;
-			height: 40px;
+			height: 48px;
 			width: 100%;
-			border-radius: 10px;
+			border-radius: 8px;
 			outline: 0;
 			box-shadow: none;
 			background-image: none;
 			position: relative;
 			font-style: italic;
 			border:none;
-
+			text-indent: 6px;
+			background-color: #fff;
+			option {
+				background-color: #fff;
+			}
 		}
 		.type-selectbox {
 			position: relative;
@@ -243,14 +248,26 @@ footer {
 		.type-selectbox::after  {
 			    content: url(img/down-arrow.svg);
 			    position: absolute;
-			    top: 52%;
+			    top: 54%;
 			    right: 1em;
 			    cursor: pointer;
 			    pointer-events: none;
 			    width: 9.48px;
 			    height: 9.48px;
 			    transform: translateY(-50%);
+			    @media screen and (max-width: 767px) {
+			      top: 2.5em;
+			    }
 		}
+
+		textarea {
+						width: 100%;
+						min-height: 160px;
+						border:1px solid #E3E3E3;
+						font-family: 'Lato';
+						text-indent: 1em;
+						font-size: 1em;
+				}
 
 	}
 	/* form large */
@@ -262,17 +279,18 @@ footer {
 			div {
 				width: 48%;
 				display: inline-block;
+				@media screen and (max-width: 767px) {
+				  width: 100%;
+				}
 				&:nth-child(odd) {
 					margin-right: 4%;
+					@media screen and (max-width: 767px) {
+					  margin-right: 0;
+					}
 				}
 				&.type-textarea {
 					margin-right: 0;
 					width: 100%;
-					textarea {
-						width: 100%;
-						min-height: 160px;
-						border:1px solid #E3E3E3;
-					}
 				}
 			}
 		}
@@ -319,7 +337,14 @@ footer {
 					  	margin-top: 1em;
 					  }
 					  div {
-					  	width: 25%;
+					  	width: calc(100% / 4 - 2em );
+					  	margin-right: 1em;
+					  	&:nth-child(4n) {
+					  		margin-right: 0;
+					  	}
+					  	&.type-submitbutton {
+					  		margin-right: 0;
+					  	}
 					  }
 			}
 

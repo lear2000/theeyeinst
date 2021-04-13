@@ -639,6 +639,74 @@ img {
 
   /* end moobs */
 }
+.locmap {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.locmapcnt {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+  .locmapcnt {
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+.locmapcnt h2 {
+  margin-top: 1em;
+}
+@media screen and (max-width: 767px) {
+  .locmapcnt h2 {
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.locmapcnt .locad {
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .locmapcnt .locad {
+    width: 50%;
+    text-align: center;
+  }
+}
+.locmapcnt .locad button {
+  display: block;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .locmapcnt .locad button {
+    margin: 1em auto;
+  }
+}
+.locmapcnt a {
+  font-weight: normal;
+  text-decoration: none;
+  color: #4D4D4D;
+}
+
+.mapblock {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .mapblock {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
 .mtns {
   background-image: url(img/footer-mts.svg);
   background-size: cover;
@@ -859,7 +927,6 @@ footer form .type-submitbutton {
 }
 footer form .submit-btn {
   min-width: initial;
-  margin-left: 1em;
   cursor: pointer;
   background-color: #4E3A6A;
   color: #fff;
@@ -879,6 +946,9 @@ footer form input:not(.submit-btn) {
   text-indent: 1em;
   font-style: italic;
   width: 100%;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #E3E3E3;
 }
 footer form input:not(.submit-btn)::-webkit-input-placeholder {
   opacity: 1;
@@ -916,16 +986,20 @@ footer form select {
   font-weight: normal;
   font-size: 1em;
   color: #A8A8A8;
-  padding-left: 1em;
-  height: 40px;
+  height: 48px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 8px;
   outline: 0;
   box-shadow: none;
   background-image: none;
   position: relative;
   font-style: italic;
   border: none;
+  text-indent: 6px;
+  background-color: #fff;
+}
+footer form select option {
+  background-color: #fff;
 }
 footer form .type-selectbox {
   position: relative;
@@ -933,7 +1007,7 @@ footer form .type-selectbox {
 footer form .type-selectbox::after {
   content: url(img/down-arrow.svg);
   position: absolute;
-  top: 52%;
+  top: 54%;
   right: 1em;
   cursor: pointer;
   pointer-events: none;
@@ -941,6 +1015,19 @@ footer form .type-selectbox::after {
   height: 9.48px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+@media screen and (max-width: 767px) {
+  footer form .type-selectbox::after {
+    top: 2.5em;
+  }
+}
+footer form textarea {
+  width: 100%;
+  min-height: 160px;
+  border: 1px solid #E3E3E3;
+  font-family: "Lato";
+  text-indent: 1em;
+  font-size: 1em;
 }
 footer .formlarge form {
   display: -webkit-flex;
@@ -952,17 +1039,22 @@ footer .formlarge form div {
   width: 48%;
   display: inline-block;
 }
+@media screen and (max-width: 767px) {
+  footer .formlarge form div {
+    width: 100%;
+  }
+}
 footer .formlarge form div:nth-child(odd) {
   margin-right: 4%;
+}
+@media screen and (max-width: 767px) {
+  footer .formlarge form div:nth-child(odd) {
+    margin-right: 0;
+  }
 }
 footer .formlarge form div.type-textarea {
   margin-right: 0;
   width: 100%;
-}
-footer .formlarge form div.type-textarea textarea {
-  width: 100%;
-  min-height: 160px;
-  border: 1px solid #E3E3E3;
 }
 footer .formlarge small {
   color: #A8A8A8;
@@ -1025,7 +1117,14 @@ footer .formsmall form {
     margin-top: 1em;
   }
   footer .formsmall form div {
-    width: 25%;
+    width: calc(100% / 4 - 2em );
+    margin-right: 1em;
+  }
+  footer .formsmall form div:nth-child(4n) {
+    margin-right: 0;
+  }
+  footer .formsmall form div.type-submitbutton {
+    margin-right: 0;
   }
 }
 footer .formsmall form small {
