@@ -121,6 +121,46 @@
       "oAP" : "\/fonts\/lato-v17-latin-regular.woff2",
       "oF" : 0
     },
+    "\/footer-landing.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/footer-landing-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/footer-landing.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/footer-landing.css.map",
+      "oF" : 0
+    },
+    "\/full-header.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/full-header-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/full-header.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/full-header.css.map",
+      "oF" : 0
+    },
     "\/header.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -164,6 +204,45 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/dr-darcy.jpg" : {
+      "ft" : 16384,
+      "iS" : 72889,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/dr-darcy.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/dr-robert.jpg" : {
+      "ft" : 16384,
+      "iS" : 68745,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/dr-robert.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/dr-sack.jpg" : {
+      "ft" : 16384,
+      "iS" : 75424,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/dr-sack.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/facebook-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -183,6 +262,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/full-header.jpg" : {
+      "ft" : 16384,
+      "iS" : 1862860,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/full-header.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/insta-white.svg" : {
       "ft" : 2097152,
@@ -337,6 +429,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/landing-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/landing-page.php",
+      "oF" : 0
+    },
     "\/location.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -433,6 +533,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/footer-landing.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/footer-landing.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/footer.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -442,6 +556,20 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/footer.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/sass\/full-header.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/full-header.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0,
@@ -607,6 +735,14 @@
       "oAP" : "\/tmpl\/footer.php",
       "oF" : 0
     },
+    "\/tmpl\/landing-footer.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/landing-footer.php",
+      "oF" : 0
+    },
     "\/tmpl\/location-withmap.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -629,6 +765,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/snippet-blogbar.php",
+      "oF" : 0
+    },
+    "\/tmpl\/snippet-fullheader.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/snippet-fullheader.php",
       "oF" : 0
     },
     "\/tmpl\/snippet-header.php" : {

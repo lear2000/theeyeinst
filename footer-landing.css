@@ -1,0 +1,14 @@
+.olsurg {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.olsurg img {
+  border-radius: 1em;
+}
+.olsurg .ssurg {
+  padding: 0 1em;
+}
+
+/*# sourceMappingURL=footer-landing.css.map */
