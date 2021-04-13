@@ -7,16 +7,12 @@
 </head>
 <body>
 	<?php include 'tmpl/snippet-header.php'; ?>
-	<header class="wideheader">
-		<div class="wh-bg" style="background-image: url(img/wideheader.jpg)"></div>
-	</header>
-	<div class="fake">
-	<div class="titlebar">
-		<h1>Blog</h1>
-	</div>
-	</div>
 
+	<?php include 'tmpl/snippet-wideheader.php'; ?>
 
+  <?php include 'tmpl/snippet-titlebar.php'; ?>
+
+  <?php include 'tmpl/snippet-blogbar.php'; ?>
 
 		<!-- scripts	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

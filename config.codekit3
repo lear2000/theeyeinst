@@ -17,6 +17,26 @@
       "oAP" : "\/blog.php",
       "oF" : 0
     },
+    "\/blogbar.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blogbar-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/blogbar.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blogbar.css.map",
+      "oF" : 0
+    },
     "\/fonts\/lato-v17-latin-300.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -324,6 +344,20 @@
       "oAP" : "\/mixins.css.map",
       "oF" : 0
     },
+    "\/sass\/blogbar.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/blogbar.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/colors.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -534,12 +568,36 @@
       "oAP" : "\/tmpl\/location-withmap.php",
       "oF" : 0
     },
+    "\/tmpl\/snippet-blogbar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/snippet-blogbar.php",
+      "oF" : 0
+    },
     "\/tmpl\/snippet-header.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/snippet-header.php",
+      "oF" : 0
+    },
+    "\/tmpl\/snippet-titlebar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/snippet-titlebar.php",
+      "oF" : 0
+    },
+    "\/tmpl\/snippet-wideheader.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/snippet-wideheader.php",
       "oF" : 0
     },
     "\/wideheader.css" : {
