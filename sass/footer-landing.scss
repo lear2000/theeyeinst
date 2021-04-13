@@ -17,6 +17,9 @@
 	color: #fff;
 	text-align: center;
 	padding-top: 3em;
+	h2 {
+		margin-bottom: 2em;
+	}
 	h3 {
 		color: #fff;
 	}
@@ -28,5 +31,10 @@
 		&:hover {
 						text-decoration: underline;
 		}
+	}
+}
+.landingfooter {
+	h2 {
+		margin-bottom: 2em;
 	}
 }

@@ -2,7 +2,7 @@
 	<div class="fw-headerbg" style="background-image: url(img/full-header.jpg);">
 
 				<div class="fake">
-					<div class="fwcnt">
+					<div class="fwcnt" style="">
 								<img src="img/logo-white.svg" alt="" />
 								<h1>Claim Your <br>$1000 OFF Lasik</h1>
 								<p>Payments as low as $154 per month for those who qualify.</p>

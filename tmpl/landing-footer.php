@@ -1,5 +1,5 @@
 <div class="mtns"></div>
-<footer>
+<footer class="landingfooter">
 	<div class="fake">
 		<h2>Our LASIK Surgeons</h2>
 		<div class="olsurg">
