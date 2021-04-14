@@ -1415,6 +1415,152 @@ img {
   margin-bottom: 2em;
 }
 
+.compchart {
+  max-width: 1080px;
+  background-color: #FAFAFA;
+  box-shadow: 0 13px 16px rgba(0, 0, 0, 0.3);
+  border: 1px solid #E5E5E5;
+  padding: 6em 1em 1em 1em;
+  margin: 0 auto;
+}
+.compchart h2, .compchart p {
+  color: #473E5C;
+  text-align: center;
+  line-height: 1.1;
+}
+.compchart p {
+  margin-bottom: 4em;
+}
+@media screen and (min-width: 1025px) {
+  .compchart .cnote-wrap {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .compchart .cnote-wrap {
+    border-bottom: 1px solid #7832D0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .compchart .cnote-wrap {
+    width: 100%;
+    border-bottom: none;
+  }
+}
+.compchart .bgwhite {
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .compchart .bgwhite {
+    display: none;
+  }
+}
+.compchart .bgdark {
+  background-color: #624F92;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.compchart .bglight {
+  background-color: #8D78C1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.compchart .cgrid-wrap {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.compchart .cgrid {
+  padding: 1em;
+  width: 50%;
+  -webkit-flex-grow: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+@media screen and (min-width: 1025px) {
+  .compchart .cgrid {
+    width: calc(100% / 5);
+  }
+}
+.compchart .cnotes {
+  padding: 0;
+  width: 100%;
+  -webkit-flex: 1 0 100%;
+          flex: 1 0 100%;
+  border-bottom: 1px solid #EAEAEA;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background-color: #fff;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.compchart .cnotes span {
+  line-height: 1.2;
+  width: 50%;
+  text-align: center;
+}
+.compchart .cnotes span div {
+  padding: 1em;
+}
+.compchart .cnotes span:first-of-type {
+  border-right: 2px solid #EAEAEA;
+  padding-right: 1em;
+  color: #7832D0;
+}
+.compchart .cnotes span:last-of-type {
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .d-gridwrap {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .cgrid {
+    border-right: 2px solid #FAFAFA;
+  }
+  .cgrid.no-b {
+    border-right: none;
+  }
+
+  .d-gridwrap {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+  }
+  .d-gridwrap > * {
+    width: calc( 100% / 5);
+    text-align: center;
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid #EAEAEA;
+  }
+  .d-gridwrap span:first-of-type {
+    color: #7832D0;
+  }
+  .d-gridwrap span:nth-child(-n+4) {
+    border-right: 2px solid #FAFAFA;
+  }
+}
 .mtns {
   background-image: url(img/footer-mts.svg);
   background-size: cover;

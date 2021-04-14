@@ -57,6 +57,14 @@
       "oAP" : "\/blogbar.css.map",
       "oF" : 0
     },
+    "\/comparison-chart.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/comparison-chart.php",
+      "oF" : 0
+    },
     "\/fonts\/lato-v17-latin-300.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -286,6 +294,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/lasik-grid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/lasik-grid.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/logo-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -326,11 +344,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/prk-grid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/prk-grid.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/right-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/right-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/rle-grid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/rle-grid.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -371,6 +409,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/titlebarlogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/visian-grid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/visian-grid.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -514,6 +562,20 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/colors.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/sass\/compchart.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/compchart.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0,
