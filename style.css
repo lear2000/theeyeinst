@@ -279,6 +279,8 @@ img {
     padding-bottom: 33px;
     display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
+            align-items: center;
   }
   header .logo {
     width: 173.087px;
@@ -390,7 +392,7 @@ img {
   .menu-item-has-children .sub-menu {
     background-color: #fff;
     border-radius: 5px;
-    min-width: 316px;
+    min-width: 100px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
     border: 1px solid #F4F4F4;
     transition: all 0.3s ease-in-out;
