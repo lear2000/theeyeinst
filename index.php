@@ -9,14 +9,17 @@
 
 	<?php include 'tmpl/snippet-header.php'; ?>
 
+	<!-- temp page -->
 	<?php //include 'tmpl/fake.php'; ?>
 
 	<!-- home page -->
 	<?php //include 'tmpl/page-home.php'?>
 
-	<!-- home page -->
-	<?php include 'tmpl/page-vision-icl.php'?>
+	<!-- vision icl page -->
+	<?php //include 'tmpl/page-vision-icl.php'?>
 
+	<!-- cataract page -->
+	<?php include 'tmpl/page-cataracts.php'?>
 
 	<?php include 'tmpl/footer.php'; ?>
 

@@ -95,12 +95,31 @@
 
 .layout-1-2-type__inner{
 	
-	.is-heading{
-		font-weight: $font-weight-bold;
-	}
-
 	.layout-1-2__text{
 		padding: 40px;
+		
+		background-image: url("img/watermark-5.png");
+		background-position: bottom right;
+
+
+		.is-heading{
+			font-weight: $font-weight-bold;
+			&.u-text-medium{
+				font-size: 28px;
+			}
+		}
+	}
+
+	&.layout-1-2-wide-text{
+
+		.layout-1-2__text{
+			max-width: 830px;
+			padding-bottom: 110px;
+		}
+
+		.layout-1-2__image{
+			max-width: calc((100% - 800px) + 100px);
+		}
 	}
 
 }
