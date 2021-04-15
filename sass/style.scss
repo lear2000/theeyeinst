@@ -1,9 +1,18 @@
-@use "reset";
-@use "helpers";
-@use "font";
-@use "main";
-@use "header";
-@use "footer";
+@use '_reset';
+@use '_font';
+@use '_main';
+@use 'colors';
+@use '_header';
+@use 'location';
+@use 'wideheader';
+@use 'titlebar';
+@use 'blogbar';
+@use 'blog';
+@use 'full-header';
+@use 'footer-landing';
+@use 'compchart';
+@use 'footer';
+// plugins
 
 // plugins
 

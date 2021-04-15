@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><?php wp_title(); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css?v_=<?php echo time();?>">
+	<?php wp_head(); ?>
 </head>
 <body>
 
@@ -30,13 +30,3 @@
 
 </body>
 </html>
-
-
-<?php
-	//BrowserSync
-	$browserSyncPort 					= 8080;
-	$browserSync 			= 'http://127.0.0.1:'.$browserSyncPort;
-	$browserSyncHeaders 		= @get_headers($browserSync);
-	if($browserSyncHeaders): ?>
-		<script async src="<?php echo $browserSync;?>/browser-sync/browser-sync-client.js?v=2.18.8"></script>
-<?php endif; ?>
