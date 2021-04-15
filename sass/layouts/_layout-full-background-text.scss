@@ -11,6 +11,7 @@
 		max-width: 590px;
 		margin: 0 auto;
 	}
+	
 
 	p{
 		margin-bottom: 40px;
@@ -29,6 +30,12 @@
 		margin-top: 50px;
 	}
 
-	
+	&.layout-wider-text{
+		padding: 195px 20px;
+		margin-top: 90px;
 
+		.layout-full-background-text__wrapper{
+			max-width: 845px;
+		}
+	}
 }

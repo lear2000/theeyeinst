@@ -1,0 +1,48 @@
+@use "colors" as *;
+
+.layout-syptoms-1-3{
+	padding: 140px 20px 60px;
+
+	&__text{
+		max-width: 660px;
+		margin: 0 auto 85px;
+
+		p{
+			line-height: 1.5;
+		}
+	}
+
+	&__item{
+		margin-bottom: 80px;
+
+		img{ 
+			margin: 0 auto;
+		}
+
+		p{
+			margin:0;
+		}
+	}
+}
+
+
+@media only screen and (min-width: 960px) {
+	.layout-syptoms-1-3{
+		
+		&__items{
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 980px;
+			margin: 0 auto;
+		}
+
+		&__item{
+			flex-basis: calc(100% / 3);
+			
+			&-text{
+				max-width: 265px;
+				margin: 0 auto;
+			}
+		}
+	}
+}
