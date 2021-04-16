@@ -1,0 +1,62 @@
+@use "colors" as *;
+
+.layout-full-background-1-2{
+	
+	padding: 30px;
+
+	&[style*="background-image"]{
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+
+	&__items{
+		
+		margin-top: -60px;
+		background-color: #FAFAFA;
+		padding: 40px 0px;
+		border: 1px solid #E5E5E5;
+
+		.is-heading{
+			margin-bottom: 25px;
+		}
+	}
+
+	
+
+	&__item{	
+		padding: 20px;
+		
+		&-img{
+			margin-bottom: 70px;
+		}
+
+		img{
+			margin: 0 auto;
+		}
+	}
+
+}
+
+
+@media only screen and (min-width: 960px) {
+	.layout-full-background-1-2{
+
+		padding-bottom: 75px;
+
+		&__items{
+			display: flex;
+			background-image: url("img/watermark-6.png");
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			margin-top: -110px;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		&__item{
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+	}
+}

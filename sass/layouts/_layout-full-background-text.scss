@@ -1,16 +1,17 @@
-@use '../colors' as *;
+@use "colors" as *;
 
 .layout-full-background-text{
 	padding: 150px 20px;
 	margin: 50px 0px;
-
+	
 	background-position: center;
 	background-size: cover;
-
+	
 	&__wrapper{
 		max-width: 590px;
 		margin: 0 auto;
 	}
+	
 
 	p{
 		margin-bottom: 40px;
@@ -29,6 +30,12 @@
 		margin-top: 50px;
 	}
 
+	&.layout-wider-text{
+		padding: 195px 20px;
+		margin-top: 90px;
 
-
+		.layout-full-background-text__wrapper{
+			max-width: 845px;
+		}
+	}
 }
