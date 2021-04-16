@@ -1,0 +1,113 @@
+@use "colors" as *;
+
+.layout-surgery-highlights{
+	padding: 20px;
+
+	img{
+		margin: 0 auto;
+	}
+
+	&__1-1{
+		margin-bottom: 50px;
+
+		&-img{
+			margin-bottom: 30px;
+		}
+		&-text p{
+			line-height: 1.35;
+		}
+	}
+
+	&__1-2-heading{
+		
+		.is-heading{
+			line-height: 1.25;
+		}
+	}
+
+	&__2-items{
+		margin-top: 50px;
+	}
+
+	&__2-item{
+		margin-top: 50px;
+
+		&-img{
+			margin-bottom: 35px;
+		}
+	}
+
+	&__3{
+		margin-top: 50px;
+		a{
+			text-decoration: none;
+			border-bottom: 1px solid #4E3A6A;
+			padding-bottom: 10px;
+			font-weight: 400;
+		}
+
+		small{
+			font-size: 12px;
+		}
+	}
+
+}
+
+
+@media only screen and (min-width: 960px) {
+
+	.layout-surgery-highlights{
+		
+		padding-top: 320px;
+		background-image: url("img/background-mountains-6.png");
+		background-repeat: no-repeat;
+    background-size: 102%;
+    background-position: 0px 82px;
+
+		&__1{
+			display: flex;
+			align-items: center;
+
+			&-1{
+				max-width: 365px;
+				text-align: center;
+				font-weight: 400;
+				font-size: 22px;
+				margin-right: 70px;
+				margin-bottom: 0;
+			}
+
+			&-2{
+				.is-heading{
+					max-width: 500px;
+				}
+			}
+		}
+
+		&__2-items{
+			display: flex;
+			align-items: baseline;
+			justify-content: space-between;
+		}
+		
+		&__2-item{
+
+			flex-basis: 320px;
+
+			&:nth-child(2){
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			
+			&-img{
+				margin-bottom: 35px;
+				min-height: 85px;
+				display: flex;
+			}
+		}
+
+		&__3{
+			margin-top: 80px;
+		}
+	}
+}

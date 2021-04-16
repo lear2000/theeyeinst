@@ -17,7 +17,7 @@
 
 // plugins
 
-@use "plugins/slick";
+@use "plugins/_slick";
 
 // layouts
 @use "layouts/_layout-1-2";
@@ -25,13 +25,15 @@
 @use "layouts/_layout-physicians";
 @use "layouts/_layout-new-heights";
 @use "layouts/_layout-rating-quote";
-@use "layouts/_layout-1-2-alternate.scss";
-@use "layouts/_layout-text-only.scss";
-@use "layouts/_layout-1-2-video.scss";
-@use "layouts/_layout-candidates.scss";
-@use "layouts/_layout-full-background-text.scss";
-@use "layouts/_layout-full-background-1-2.scss";
-@use "layouts/_layout-syptoms-1-3.scss";
+@use "layouts/_layout-1-2-alternate";
+@use "layouts/_layout-text-only";
+@use "layouts/_layout-1-2-video";
+@use "layouts/_layout-candidates";
+@use "layouts/_layout-full-background-text";
+@use "layouts/_layout-full-background-1-2";
+@use "layouts/_layout-syptoms-1-3";
+@use "layouts/_layout-heading-video-text";
+@use "layouts/_layout-surgery-highlights";
 
 // pages
 

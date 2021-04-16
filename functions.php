@@ -22,7 +22,8 @@ add_action( 'init', 'register_my_menus' );
  */
 function fs_theme_name_scripts() {
 
-    wp_enqueue_style( 'mainstyle', get_template_directory_uri().'/style.css' );
+		// remove time() before launch
+    wp_enqueue_style( 'mainstyle', get_template_directory_uri().'/style.css' , true, time());
     // if (!is_front_page()) {
     //   wp_enqueue_style( 'insidestyle', get_template_directory_uri().'/inside.css' );
     // }
