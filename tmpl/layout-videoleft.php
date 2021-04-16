@@ -2,7 +2,7 @@
 /**
  * Block template file: tmpl/layout-videoright.php
  *
- * Video R Block Template.
+ * Videoright Block Template.
  *
  * @param   array $block The block settings and attributes.
  * @param   string $content The block inner HTML (empty).
@@ -11,13 +11,13 @@
  */
 
 // Create id attribute allowing for custom "anchor" value.
-$id = 'video-r-' . $block['id'];
+$id = 'videoright-' . $block['id'];
 if ( ! empty($block['anchor'] ) ) {
     $id = $block['anchor'];
 }
 
 // Create class attribute allowing for custom "className" and "align" values.
-$classes = 'block-video-r';
+$classes = 'block-videoright';
 if ( ! empty( $block['className'] ) ) {
     $classes .= ' ' . $block['className'];
 }
@@ -27,7 +27,7 @@ if ( ! empty( $block['align'] ) ) {
 
 $videotype = get_field( 'video_type' );
 ?>
-<section class="layout-1-2-video  <?php echo esc_attr( $classes ); ?>" id="<?php echo esc_attr( $id ); ?>">
+<section class="layout-1-2-video layout-1-2-video-reverse <?php echo esc_attr( $classes ); ?>" id="<?php echo esc_attr( $id ); ?>">
 	<div class="layout-1-2-video__wrapper layout-container">
 
 		<div class="layout-1-2-video__item layout-1-2-video__text">

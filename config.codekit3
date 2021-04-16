@@ -25,6 +25,30 @@
       "oAP" : "\/404.php",
       "oF" : 0
     },
+    "\/acf-json\/group_607a0d5fdb72b.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_607a0d5fdb72b-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/acf-json\/group_607a126cb3396.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_607a126cb3396-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/acf-json\/group_607a1593e0109.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_607a1593e0109-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/acf-json\/group_607a06147d97e.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1856,6 +1880,14 @@
       "oAP" : "\/tmpl\/layout-candidate.php",
       "oF" : 0
     },
+    "\/tmpl\/layout-leadpara.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/layout-leadpara.php",
+      "oF" : 0
+    },
     "\/tmpl\/layout-new-heights.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1878,6 +1910,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/layout-rating-quote.php",
+      "oF" : 0
+    },
+    "\/tmpl\/layout-videoleft.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/layout-videoleft.php",
       "oF" : 0
     },
     "\/tmpl\/layout-videoright.php" : {

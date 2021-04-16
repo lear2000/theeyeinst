@@ -25,7 +25,6 @@ if ( ! empty( $block['align'] ) ) {
     $classes .= ' align' . $block['align'];
 }
 ?>
-
 <section class="layout-candidates <?php echo esc_attr( $classes ); ?>" id="<?php echo esc_attr( $id ); ?>" >
 	<div class="layout-candidates__wrapper layout-container">
 		<div class="layout-candidates__text u-text-center">

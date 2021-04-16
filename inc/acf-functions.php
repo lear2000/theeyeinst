@@ -126,6 +126,7 @@ function fs_acf_init_block_types() {
             'title'             => __('Just Content - ACF'),
             'description'       => __('Just Content'),
             'category'          => 'formatting',
+            'icon'              => 'edit-page',
             'keywords'          => array( 'content', 'just content','acf','layout' ),
             'render_template'   => 'tmpl/just-content.php',
         ));
@@ -141,15 +142,39 @@ function fs_acf_init_block_types() {
             'render_template'   => 'tmpl/layout-candidate.php',
         ));
 
-        //video right
+        //video Left
         acf_register_block_type(array(
             'name'              => 'videoright',
+            'title'             => __('Video Left - ACF'),
+            'description'       => __('Video Left'),
+            'category'          => 'formatting',
+            'icon'              => 'video-alt',
+            'keywords'          => array( 'video left','video' ,'left','acf','layout' ),
+            'render_template'   => 'tmpl/layout-videoleft.php',
+        ));
+
+
+        //video right
+        acf_register_block_type(array(
+            'name'              => 'video_r',
             'title'             => __('Video Right - ACF'),
             'description'       => __('Video Right'),
             'category'          => 'formatting',
             'icon'              => 'video-alt',
             'keywords'          => array( 'video right','video' ,'right','acf','layout' ),
             'render_template'   => 'tmpl/layout-videoright.php',
+        ));
+
+
+        //lead paragraph
+        acf_register_block_type(array(
+            'name'              => 'leadpara',
+            'title'             => __('Lead Section - ACF'),
+            'description'       => __('Lead Section - Has Spacing Below H Tag'),
+            'category'          => 'formatting',
+            'icon'              => 'edit',
+            'keywords'          => array( 'lead','content' ,'spacing','acf','layout' ),
+            'render_template'   => 'tmpl/layout-leadpara.php',
         ));
 
     }// Check function exists.

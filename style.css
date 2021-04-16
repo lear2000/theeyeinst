@@ -1991,6 +1991,7 @@ footer .formsmall {
 footer .formsmall small {
   color: #fff;
   text-align: center;
+  line-height: 1.5;
 }
 footer .formsmall form {
   display: -webkit-flex;
