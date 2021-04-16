@@ -234,4 +234,13 @@
 	}
 }
 
+/* inside blocks */
 
+.insidepage {
+	.layout-1-2-type__index{
+		&.layout-1-2-reverse{
+			margin-top: 0;
+			margin-bottom: 3em;
+		}
+	}
+}

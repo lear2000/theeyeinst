@@ -33,6 +33,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/acf-json\/group_6079fef3e89b8.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_6079fef3e89b8-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/acf-json\/group_60775dce5a56e.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -761,6 +769,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/mtns-bg-candidate.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/mtns-bg-candidate.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/new-height-1.png" : {
       "ft" : 32768,

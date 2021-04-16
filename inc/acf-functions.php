@@ -136,8 +136,9 @@ function fs_acf_init_block_types() {
             'title'             => __('Candidate - ACF'),
             'description'       => __('Candidate'),
             'category'          => 'formatting',
+            'icon'              => 'businesswoman',
             'keywords'          => array( 'Candidate', 'acf','layout' ),
-            'render_template'   => 'tmpl/layout-andidate.php',
+            'render_template'   => 'tmpl/layout-candidate.php',
         ));
 
     }// Check function exists.
