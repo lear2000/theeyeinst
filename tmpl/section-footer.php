@@ -68,9 +68,6 @@
 </div>
 
 <?php $include_on_these_pages = get_field( 'include_on_these_pages', 'option' ); ?>
-<?php echo "<pre>";
-print_r($include_on_these_pages);
-echo "</pre>"; ?>
 <?php if (is_page($include_on_these_pages)):?>
 <div class="desk-sticky">
 	<?php if ( have_rows( 'special_link', 'option' ) ) : ?>

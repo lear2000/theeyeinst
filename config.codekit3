@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
     "\/404.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -16,6 +24,14 @@
       "oA" : 0,
       "oAP" : "\/404.php",
       "oF" : 0
+    },
+    "\/acf-json\/group_6079eb4e516da.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_6079eb4e516da-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/acf-json\/group_60775dce5a56e.json" : {
       "ft" : 524288,
@@ -204,6 +220,19 @@
       "oAP" : "\/header.php",
       "oF" : 0
     },
+    "\/img\/1-2_AdobeStock_298566264.jpg" : {
+      "ft" : 16384,
+      "iS" : 1548470,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/1-2_AdobeStock_298566264.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/5-stars.png" : {
       "ft" : 32768,
       "iS" : 6539,
@@ -334,6 +363,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/background-mountains-6.png" : {
+      "ft" : 32768,
+      "iS" : 32069,
+      "oA" : 0,
+      "oAP" : "\/img\/background-mountains-6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/candidate-1-2.png" : {
       "ft" : 32768,
       "iS" : 15439,
@@ -391,6 +433,110 @@
       "iS" : 20861,
       "oA" : 0,
       "oAP" : "\/img\/candidate-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cat-symptom-1.png" : {
+      "ft" : 32768,
+      "iS" : 22939,
+      "oA" : 0,
+      "oAP" : "\/img\/cat-symptom-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cat-symptom-2.png" : {
+      "ft" : 32768,
+      "iS" : 24892,
+      "oA" : 0,
+      "oAP" : "\/img\/cat-symptom-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cat-symptom-3.png" : {
+      "ft" : 32768,
+      "iS" : 28054,
+      "oA" : 0,
+      "oAP" : "\/img\/cat-symptom-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cat-symptom-4.png" : {
+      "ft" : 32768,
+      "iS" : 34108,
+      "oA" : 0,
+      "oAP" : "\/img\/cat-symptom-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cat-symptom-5.png" : {
+      "ft" : 32768,
+      "iS" : 19166,
+      "oA" : 0,
+      "oAP" : "\/img\/cat-symptom-5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cat-symptom-6.png" : {
+      "ft" : 32768,
+      "iS" : 24905,
+      "oA" : 0,
+      "oAP" : "\/img\/cat-symptom-6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cataract-affected-eye-2.png" : {
+      "ft" : 32768,
+      "iS" : 80563,
+      "oA" : 0,
+      "oAP" : "\/img\/cataract-affected-eye-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/cataract-normal-eye.png" : {
+      "ft" : 32768,
+      "iS" : 81763,
+      "oA" : 0,
+      "oAP" : "\/img\/cataract-normal-eye.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -540,6 +686,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/lens-implant.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/lens-implant.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/logo-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -619,6 +775,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/ora.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/ora.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/pick-eye.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/pick-eye.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/prk-grid.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -634,6 +810,52 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/rating.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/ribbon-1.png" : {
+      "ft" : 32768,
+      "iS" : 11632,
+      "oA" : 0,
+      "oAP" : "\/img\/ribbon-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/ribbon-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/ribbon-1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/ribbon-2.png" : {
+      "ft" : 32768,
+      "iS" : 12664,
+      "oA" : 0,
+      "oAP" : "\/img\/ribbon-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/ribbon-2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/ribbon-2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -764,6 +986,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/video-preview-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 339757,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/video-preview-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/visian-grid.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -839,6 +1074,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/watermark-6.png" : {
+      "ft" : 32768,
+      "iS" : 24576,
+      "oA" : 0,
+      "oAP" : "\/img\/watermark-6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/watermark-header.png" : {
       "ft" : 32768,
       "iS" : 17843,
@@ -871,6 +1119,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/what-are-cataracts-man.jpg" : {
+      "ft" : 16384,
+      "iS" : 459802,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/what-are-cataracts-man.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/wideheader.jpg" : {
       "ft" : 16384,
@@ -951,17 +1212,6 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
-    "\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -983,6 +1233,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/js\/scripts.min.js~HEAD" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/scripts.min.js~HEAD",
+      "oF" : 0
     },
     "\/js\/slick.min.js" : {
       "bF" : 0,
@@ -1187,6 +1445,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/_mixins.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/_mixins.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/_reset.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1224,104 +1496,6 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/_wideheader.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/blog.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/blog.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/blogbar.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/blogbar.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/colors.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 1,
-      "oAP" : "\/colors.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/compchart.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/compchart.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/footer-landing.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/footer-landing.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/footer.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/footer.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/full-header.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/full-header.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0,
@@ -1523,34 +1697,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/location.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/location.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/mixins.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 1,
-      "oAP" : "\/mixins.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/sass\/plugins\/_slick.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1574,34 +1720,6 @@
       "ma" : 1,
       "oA" : 0,
       "oAP" : "\/style.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/titlebar.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/titlebar.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/wideheader.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/wideheader.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0,
@@ -1656,6 +1774,30 @@
       "oAP" : "\/tmpl\/fake.php",
       "oF" : 0
     },
+    "\/tmpl\/footer.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/footer.php",
+      "oF" : 0
+    },
+    "\/tmpl\/just-content.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/just-content.php",
+      "oF" : 0
+    },
+    "\/tmpl\/layout-1-2-alternate.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/layout-1-2-alternate.php",
+      "oF" : 0
+    },
     "\/tmpl\/layout-1-2-copy.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1678,6 +1820,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/layout-1-2.php",
+      "oF" : 0
+    },
+    "\/tmpl\/layout-candidate.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/layout-candidate.php",
       "oF" : 0
     },
     "\/tmpl\/layout-new-heights.php" : {

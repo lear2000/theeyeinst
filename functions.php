@@ -8,6 +8,50 @@
 include 'inc/acf-functions.php';
 
 
+// wrap guts blocks in fake class
+add_filter( 'render_block', function ( $block_content, $block ) {
+$blocks = [
+'archives',
+'audio',
+'button',
+'categories',
+'code',
+'column',
+'columns',
+'coverImage',
+'embed',
+'file',
+'freeform',
+'gallery',
+'heading',
+'html',
+'image',
+'latestComments',
+'latestPosts',
+'list',
+'more',
+'nextpage',
+'paragraph',
+'preformatted',
+'pullquote',
+'quote',
+'reusableBlock',
+'separator',
+'shortcode',
+'spacer',
+'subhead',
+'table',
+'textColumns',
+'verse',
+'video'
+];
+foreach($blocks as $b) {
+if ( 'core/' . $b === $block['blockName'] ) {
+$block_content = '<div class="fake">'. $block_content .'</div>';
+}
+}
+return $block_content;
+}, 10, 2 );
 
 
 

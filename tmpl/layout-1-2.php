@@ -32,7 +32,7 @@ if ( ! empty( $block['align'] ) ) {
 
 	</div>
 
-	<div class="layout-1-2__text">
+	<div class="layout-1-2__text page-header">
 		<?php if ( get_field( 'new_page_title' ) == 1 ) : ?>
 				<h1 class="is-heading"><?php the_field( 'alt_page_title' ); ?></h1>
 			<?php else : ?>

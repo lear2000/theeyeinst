@@ -109,6 +109,36 @@ function fs_acf_init_block_types() {
             'keywords'          => array( 'rating', 'copy','acf','layout' ),
         ));
 
+                ///layout-1-2-alternate.php
+        acf_register_block_type(array(
+            'name'              => 'imgleft',
+            'title'             => __('IMG Left/Text Right Block - ACF'),
+            'description'       => __('Image On Left Text Right NO Box'),
+            'category'          => 'formatting',
+            'icon'              => 'table-col-before',
+            'keywords'          => array( 'img', 'left','acf','layout' ),
+            'render_template'   => 'tmpl/layout-1-2-alternate.php',
+        ));
+
+        //just content
+        acf_register_block_type(array(
+            'name'              => 'justcontent',
+            'title'             => __('Just Content - ACF'),
+            'description'       => __('Just Content'),
+            'category'          => 'formatting',
+            'keywords'          => array( 'content', 'just content','acf','layout' ),
+            'render_template'   => 'tmpl/just-content.php',
+        ));
+
+        //candidate
+        acf_register_block_type(array(
+            'name'              => 'candidate',
+            'title'             => __('Candidate - ACF'),
+            'description'       => __('Candidate'),
+            'category'          => 'formatting',
+            'keywords'          => array( 'Candidate', 'acf','layout' ),
+            'render_template'   => 'tmpl/layout-andidate.php',
+        ));
 
     }// Check function exists.
 }

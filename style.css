@@ -2311,7 +2311,6 @@ footer .formsmall form .stopyenoh {
   padding: 40px 20px 50px;
 }
 .layout-1-2-type__index .layout-1-2__text .is-heading {
-  font-size: 27px;
   font-weight: bold;
 }
 .layout-1-2-type__index .layout-1-2__text .is-heading span {
@@ -2397,9 +2396,6 @@ footer .formsmall form .stopyenoh {
     padding-left: 95px;
     padding-right: 105px;
     padding-top: 60px;
-  }
-  .layout-1-2 .layout-1-2__text .is-heading {
-    font-size: 50px;
   }
 }
 @media only screen and (min-width: 960px) {

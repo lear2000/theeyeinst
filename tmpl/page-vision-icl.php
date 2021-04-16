@@ -1,13 +1,13 @@
-<section class="layout-1-2 layout-1-2-type__inner">
+<!-- <section class="layout-1-2 layout-1-2-type__inner">
 	<div class="layout-1-2__image" style="background-image:url(<?php echo get_template_directory_uri( )?>/img/icl-stock-img.jpg);"></div>
 	<div class="layout-1-2__text">
 		<h1 class="is-heading">Visian ICL®</h1>
 		<p>Will need blurb on Visian. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 	</div>
 </section>
+ -->
 
-
-<section class="layout-1-2-alternate">
+<!-- <section class="layout-1-2-alternate">
 	<div class="layout-1-2-alternate__wrapper layout-container">
 		<div class="layout-1-2-alternate__item layout-1-2-alternate__image">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/vision-wireframe.png" alt="{replace me}">
@@ -16,16 +16,16 @@
 			<p>If your doctor said you weren’t a good candidate for LASIK or PRK because you had too thin corneas, dry eyes, or your prescription was out of range, then the Visian ICL may be just perfect for you! In addition, the Visian ICL is also available to people who are looking for other alternatives to LASIK. The Visian ICL is an implantable contact/collamer lens. It’s different from LASIK because it doesn’t involve a laser to treat the cornea. The Visian ICL is actually an implant that works in harmony with your natural eye! The surgeon will make a tiny incision and insert a microthin contact lens in front of the eye’s natural lens inside the eye. You will never have to worry again about foggy glasses or losing a contact. Our ICL patients are thrilled with their results – in the F.D.A. clinical trials, patients reported a 99% satisfaction rate!</p>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
-<section class="layout-1-2 layout-1-2-reverse layout-1-2-type__inner layout-1-2-wide-text">
+<!-- <section class="layout-1-2 layout-1-2-reverse layout-1-2-type__inner layout-1-2-wide-text">
 	<div class="layout-1-2__image layout-1-2-reverse__image" style="background-image:url(<?php echo get_template_directory_uri( )?>/img/AdobeStock_218472006.jpg);"></div>
 	<div class="layout-1-2__text layout-1-2-reverse__text">
 		<h2 class="is-heading u-text-medium">Visian Toric ICL®</h2>
 		<p>Will need blurb on Visian. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 	</div>
-</section>
+</section> -->
 
 <?php
 	$candidateTypes = [
@@ -73,11 +73,11 @@
 
 <section class="layout-1-2-video">
 	<div class="layout-1-2-video__wrapper layout-container">
-		
+
 		<div class="layout-1-2-video__item layout-1-2-video__text">
 			<h3 class="layout-1-2-video__text-heading is-heading">The Visian ICL Experience</h3>
 			<p class="layout-1-2-video__text-text">Lori’s experience with her Visian ICL procedure.  Lipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
-		</div>	
+		</div>
 		<div class="layout-1-2-video__item layout-1-2-video__video">
 			<div class="layout-1-2-video__video-object">
 				<img src="<?php echo get_template_directory_uri();?>/img/video-dummy.jpg" alt="{replace me}">
@@ -88,11 +88,11 @@
 
 <section class="layout-1-2-video layout-1-2-video-reverse">
 	<div class="layout-1-2-video__wrapper layout-container">
-		
+
 		<div class="layout-1-2-video__item layout-1-2-video__text">
 			<h3 class="layout-1-2-video__text-heading is-heading">How Does It Work?</h3>
 			<p class="layout-1-2-video__text-text">Lori’s experience with her Visian ICL procedure.  Lipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
-		</div>	
+		</div>
 		<div class="layout-1-2-video__item layout-1-2-video__video">
 			<div class="layout-1-2-video__video-object">
 				<img src="<?php echo get_template_directory_uri();?>/img/video-dummy.jpg" alt="{replace me}">
