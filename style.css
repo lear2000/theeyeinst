@@ -543,6 +543,7 @@ body .u-pt-none {
 @media screen and (max-width: 1024px) and (max-width: 1024px) {
   header {
     padding-bottom: 1em;
+    padding-top: 1em;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -586,7 +587,7 @@ body .u-pt-none {
 @media screen and (max-width: 1024px) {
   .nav-bottom {
     position: fixed;
-    top: calc(48px + 34px);
+    top: 80px;
     left: 0;
     width: 100%;
     z-index: -1;
@@ -2077,17 +2078,25 @@ footer .formsmall form .stopyenoh {
   display: inline-block;
   width: 100%;
   font-weight: 300;
+  padding: 0;
 }
 .desk-sticky a div:first-of-type {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-direction: column;
+          flex-direction: column;
   -webkit-flex: 2.5;
           flex: 2.5;
   padding-left: 1em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .desk-sticky a div:first-of-type span:nth-child(1) {
   font-size: 22px;
   display: block;
+  padding-bottom: 0.2em;
 }
 .desk-sticky a div:first-of-type span:nth-child(2) {
   font-size: 15px;
@@ -2297,7 +2306,7 @@ footer .formsmall form .stopyenoh {
 }
 
 .layout-1-2-type__index .layout-1-2__text {
-  background-image: url("img/watermark-1.png");
+  background-image: url("img/watermark-header.svg");
   background-position: bottom right;
   padding: 40px 20px 50px;
 }
@@ -2308,21 +2317,32 @@ footer .formsmall form .stopyenoh {
 .layout-1-2-type__index .layout-1-2__text .is-heading span {
   font-weight: 300;
 }
-.layout-1-2-type__index .layout-1-2__text a {
-  border-bottom: 1px solid;
-  color: #473E5C;
-  display: inline-block;
-  font-weight: 500;
-  padding-bottom: 1px;
-  text-decoration: none;
+.layout-1-2-type__index .layout-1-2__text .btn {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  text-transform: uppercase;
+  padding-left: 0;
+  padding-right: 0;
+}
+.layout-1-2-type__index .layout-1-2__text .btn:hover {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 .layout-1-2-type__index .layout-1-2-reverse__text {
-  background-image: url("img/watermark-2.png");
-  background-position: bottom left;
+  background-image: url("img/watermark-header.svg");
+  background-position: bottom right;
   padding: 50px 20px 50px;
 }
 .layout-1-2-type__index .layout-1-2-reverse__text .is-heading {
   line-height: normal;
+}
+.layout-1-2-type__index .layout-1-2-reverse__text .is-heading p {
+  line-height: normal;
+  font-weight: 300;
+}
+.layout-1-2-type__index .layout-1-2-reverse__text .is-heading p strong {
+  font-weight: bold;
 }
 .layout-1-2-type__index .layout-1-2-reverse__text a {
   margin-top: 30px;
@@ -2339,12 +2359,12 @@ footer .formsmall form .stopyenoh {
 .layout-1-2-type__inner .layout-1-2__text .is-heading.u-text-medium {
   font-size: 28px;
 }
-.layout-1-2-type__inner .layout-1-2__text .is-heading.u-font-semibold {
-  font-weight: 500;
-}
 .layout-1-2-type__inner.layout-1-2-wide-text .layout-1-2__text {
   max-width: 830px;
   padding-bottom: 110px;
+}
+.layout-1-2-type__inner.layout-1-2-wide-text .layout-1-2__image {
+  max-width: calc((100% - 800px) + 100px);
 }
 
 @media only screen and (min-width: 960px) {
@@ -2355,6 +2375,13 @@ footer .formsmall form .stopyenoh {
     padding-top: 75px;
     position: relative;
   }
+}
+@media only screen and (min-width: 960px) and (min-width: 1500px) {
+  .layout-1-2 {
+    min-height: 100vh;
+  }
+}
+@media only screen and (min-width: 960px) {
   .layout-1-2__text {
     margin-top: 0;
     max-width: 675px;
@@ -2363,6 +2390,8 @@ footer .formsmall form .stopyenoh {
     position: relative;
     z-index: 1;
   }
+}
+@media only screen and (min-width: 960px) {
   .layout-1-2 .layout-1-2__text {
     padding-bottom: 70px;
     padding-left: 95px;
@@ -2372,6 +2401,8 @@ footer .formsmall form .stopyenoh {
   .layout-1-2 .layout-1-2__text .is-heading {
     font-size: 50px;
   }
+}
+@media only screen and (min-width: 960px) {
   .layout-1-2__image {
     height: 100%;
     margin-top: 0;
@@ -2383,7 +2414,13 @@ footer .formsmall form .stopyenoh {
     right: 0;
     top: 0;
   }
-
+}
+@media only screen and (min-width: 960px) and (min-width: 1500px) {
+  .layout-1-2__image {
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 960px) {
   .layout-1-2-reverse__text {
     margin-left: auto;
   }
@@ -2391,7 +2428,8 @@ footer .formsmall form .stopyenoh {
     left: 0;
     right: auto;
   }
-
+}
+@media only screen and (min-width: 960px) {
   .layout-1-2-type__index .layout-1-2__text a {
     margin-top: 10px;
     padding-bottom: 5px;
@@ -2407,12 +2445,10 @@ footer .formsmall form .stopyenoh {
   .layout-1-2-type__index.layout-1-2-reverse .layout-1-2__text .is-heading, .layout-1-2-type__index.layout-1-2-reverse .layout-1-2__text p {
     text-align: left;
   }
-
+}
+@media only screen and (min-width: 960px) {
   .layout-1-2-type__inner .layout-1-2__image {
     background-position: center center;
-  }
-  .layout-1-2-type__inner.layout-1-2-wide-text .layout-1-2__image {
-    max-width: calc((100% - 800px) + 100px);
   }
 }
 .layout-1-2-copy {
@@ -2704,6 +2740,8 @@ footer .formsmall form .stopyenoh {
   color: #343638;
   padding-bottom: 80px;
   padding-top: 80px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .layout-rating-quote .u-text-center {
   text-align: center;

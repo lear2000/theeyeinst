@@ -228,6 +228,7 @@
   	padding-right: 1.5em;
   	@media screen and (max-width: 1024px) {
   	  padding-bottom: 1em;
+  	  padding-top: 1em;
   	}
   }
   .nav-top {
@@ -268,7 +269,7 @@
 
 .nav-bottom {
 	position: fixed;
-	top: calc(48px + 34px);
+	top: 80px;
 	left: 0;
 	width: 100%;
 	z-index: -1;

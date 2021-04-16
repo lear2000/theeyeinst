@@ -66,6 +66,12 @@
 	<a href="<?php the_field( 'location_link', 'option' ); ?>"><img  loading="lazy" src="<?php echo get_template_directory_uri();?>/img/sticky-location.svg" width="17" height="26" /></a>
 	<a href="#">$2,020 off<br>LASIK PRK or ICL</a>
 </div>
+
+<?php $include_on_these_pages = get_field( 'include_on_these_pages', 'option' ); ?>
+<?php echo "<pre>";
+print_r($include_on_these_pages);
+echo "</pre>"; ?>
+<?php if (is_page($include_on_these_pages)):?>
 <div class="desk-sticky">
 	<?php if ( have_rows( 'special_link', 'option' ) ) : ?>
 		<?php
@@ -79,7 +85,6 @@
 			</a>
 		<?php endwhile; ?>
 	<?php endif; ?>
-
-
 </div>
+<?php endif; ?>
 </footer>

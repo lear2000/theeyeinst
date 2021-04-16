@@ -35,8 +35,9 @@ if ( ! empty( $block['align'] ) ) {
 
 	<div class="layout-1-2__text layout-1-2-reverse__text">
 		<h2 class="is-heading u-text-center">
-			<?php the_field( 'text' ); ?>
+			<?php the_field( 'heading' ); ?>
 		</h2>
+		<div><?php the_field( 'text' ); ?></div>
 			<?php if ( $button ) : ?>
 			<p><a class="btn primary" href="<?php echo esc_url( $button['url'] ); ?>" target="<?php echo esc_attr( $button['target'] ); ?>"><?php echo esc_html( $button['title'] ); ?></a></p>
 		<?php endif; ?>

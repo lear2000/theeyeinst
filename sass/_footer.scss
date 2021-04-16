@@ -409,15 +409,20 @@ footer {
 			display: inline-block;
 			width: 100%;
 			font-weight: 300;
+			padding: 0;
 		}
 		div:first-of-type {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
 			flex:2.5;
 			padding-left: 1em;
-			padding-top: .3em;
-			padding-bottom: .3em;
+			padding-top: 1em;
+			padding-bottom: 1em;
 			span:nth-child(1) {
 				font-size: 22px;
 				display: block;
+				padding-bottom: .2em;
 			}
 			span:nth-child(2) {
 				font-size: 15px;

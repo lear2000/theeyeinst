@@ -1,5 +1,7 @@
-@use "../colors" as *;
+@use '../colors' as *;
+
 //base layout
+
 .layout-1-2{
 
 	align-items: center;
@@ -48,9 +50,10 @@
 .layout-1-2-type__index{
 
 	.layout-1-2__text{
-		background-image: url("img/watermark-1.png");
+		background-image: url("img/watermark-header.svg");
 		background-position: bottom right;
 		padding: 40px 20px 50px;
+
 
 		.is-heading{
 			font-size: 27px;
@@ -61,24 +64,35 @@
 			}
 		}
 
-		a{
-			border-bottom: 1px solid;
-			color: $brand;
-			display: inline-block;
-			font-weight: 500;
-			padding-bottom: 1px;
-			text-decoration: none;
-		}
 
+		.btn {
+			border-left:1px solid transparent;
+			border-right:1px solid transparent;
+			border-top:1px solid transparent;
+			text-transform: uppercase;
+			padding-left: 0;
+			padding-right: 0;
+			&:hover {
+							padding-left: 2em;
+							padding-right: 2em;
+			}
+		}
 	}
 
 	.layout-1-2-reverse__text{
-		background-image: url("img/watermark-2.png");
-		background-position: bottom left;
+		background-image: url("img/watermark-header.svg");
+		background-position: bottom right;
 		padding: 50px 20px 50px;
 
 		.is-heading{
 			line-height: normal;
+			p {
+				line-height: normal;
+				font-weight: 300;
+				strong {
+					font-weight: bold;
+				}
+			}
 		}
 
 		a{
@@ -105,9 +119,6 @@
 			&.u-text-medium{
 				font-size: 28px;
 			}
-			&.u-font-semibold{
-				font-weight: $font-weight-semibold;
-			}
 		}
 	}
 
@@ -117,7 +128,12 @@
 			max-width: 830px;
 			padding-bottom: 110px;
 		}
+
+		.layout-1-2__image{
+			max-width: calc((100% - 800px) + 100px);
+		}
 	}
+
 }
 
 // desktop
@@ -129,6 +145,9 @@
 		padding-bottom: 75px;
 		padding-top: 75px;
 		position: relative;
+		@media screen and (min-width: 1500px) {
+		    min-height: 100vh;
+		}
 
 		&__text{
 			margin-top: 0;
@@ -158,6 +177,10 @@
 			position: absolute;
 			right:0 ;
 			top: 0;
+			@media screen and (min-width: 1500px) {
+				background-position: center;
+			}
+
 		}
 	}
 
@@ -206,13 +229,7 @@
 			background-position: center center;
 		}
 
-		&.layout-1-2-wide-text{
-
-			.layout-1-2__image{
-				max-width: calc((100% - 800px) + 100px);
-			}
-		}
-
 	}
-
 }
+
+

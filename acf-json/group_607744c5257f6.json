@@ -293,6 +293,44 @@
                     "maxlength": ""
                 }
             ]
+        },
+        {
+            "key": "field_6079e677b53e4",
+            "label": "Sticky Footer Desktop",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6079e84cb53e5",
+            "label": "Include ON these pages",
+            "name": "include_on_these_pages",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 1,
+            "multiple": 1,
+            "return_format": "id",
+            "ui": 1
         }
     ],
     "location": [
@@ -312,5 +350,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1618447004
+    "modified": 1618602264
 }
