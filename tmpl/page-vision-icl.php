@@ -48,7 +48,7 @@
 	];
 ?>
 
-<section class="layout-candidates">
+<!-- <section class="layout-candidates">
 	<div class="layout-candidates__wrapper layout-container">
 
 		<div class="layout-candidates__text u-text-center">
@@ -68,7 +68,7 @@
 		</div>
 
 	</div>
-</section>
+</section> -->
 
 
 <section class="layout-1-2-video">

@@ -2897,6 +2897,9 @@ footer .formsmall form .stopyenoh {
 }
 
 @media only screen and (min-width: 960px) {
+  .layout-1-2-video .max-iframe {
+    max-width: 100%;
+  }
   .layout-1-2-video__wrapper {
     -webkit-align-items: center;
             align-items: center;

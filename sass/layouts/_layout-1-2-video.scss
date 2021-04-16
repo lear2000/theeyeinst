@@ -33,7 +33,9 @@
 @media only screen and (min-width: 960px) {
 
 	.layout-1-2-video{
-
+		.max-iframe {
+			max-width: 100%;
+		}
 		&__wrapper{
 			align-items: center;
 			flex-direction: row;

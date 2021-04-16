@@ -141,6 +141,17 @@ function fs_acf_init_block_types() {
             'render_template'   => 'tmpl/layout-candidate.php',
         ));
 
+        //video right
+        acf_register_block_type(array(
+            'name'              => 'videoright',
+            'title'             => __('Video Right - ACF'),
+            'description'       => __('Video Right'),
+            'category'          => 'formatting',
+            'icon'              => 'video-alt',
+            'keywords'          => array( 'video right','video' ,'right','acf','layout' ),
+            'render_template'   => 'tmpl/layout-videoright.php',
+        ));
+
     }// Check function exists.
 }
 
