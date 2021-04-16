@@ -1,8 +1,8 @@
-@use "colors" as *;
+@use "../colors" as *;
 
 
 .layout-1-2-alternate{
-	
+
 	margin: 3rem 0px;
 	padding: 0 20px;
 
@@ -37,6 +37,6 @@
 			max-width: 50%;
 			padding: 0px 20px;
 		}
-	}	
+	}
 
 }

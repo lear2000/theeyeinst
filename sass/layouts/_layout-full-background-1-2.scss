@@ -1,17 +1,17 @@
-@use "colors" as *;
+@use "../colors" as *;
 
 .layout-full-background-1-2{
-	
+
 	padding: 30px;
 
 	&[style*="background-image"]{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	
+
 
 	&__items{
-		
+
 		margin-top: -60px;
 		background-color: #FAFAFA;
 		padding: 40px 0px;
@@ -22,11 +22,11 @@
 		}
 	}
 
-	
 
-	&__item{	
+
+	&__item{
 		padding: 20px;
-		
+
 		&-img{
 			margin-bottom: 70px;
 		}

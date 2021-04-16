@@ -1,4 +1,4 @@
-@use "colors" as *;
+@use '../colors' as *;
 
 .layout-1-2-copy{
 
@@ -7,6 +7,9 @@
 	&__copy-1{
 		font-size: 22px;
 		font-weight:  $font-weight-light;
+		p {
+			line-height: 1.5;
+		}
 	}
 
 	&__copy-2{
@@ -28,7 +31,9 @@
 		&__wrapper{
 			display: flex;
 			margin: 0 auto;
-			max-width: $max-width-container;
+			// max-width: $max-width-container;
+			padding-left: 4vw;
+			padding-right: 4vw;
 		}
 
 		&__copy-1{
@@ -36,5 +41,5 @@
 			margin-right: 50px;
 		}
 	}
-	
+
 }
