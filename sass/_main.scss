@@ -96,8 +96,10 @@ ol {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border-radius: 70px;
-	text-decoration: uppercase;
+	text-transform: uppercase;
+	text-decoration: none;
 	border: 1px solid 	rgba(255, 255, 255, .5);
+
 	@media (hover: hover) {
 		&:hover {
 			text-decoration: none;
@@ -124,6 +126,16 @@ ol {
 		background-color: color.$brand;
 		border: 1px solid 	rgba(255, 255, 255, .5);
 		color: #fff;
+		transition: all .3s ease-in-out;
+		&:hover {
+			background-color: color.$purple;
+			color: #fff;
+			transition: all .3s ease-in-out;
+			border: 1px solid 	rgba(255, 255, 255, .5);
+		}
+	}
+	&.third {
+		background-color: color.$navitem;
 		transition: all .3s ease-in-out;
 		&:hover {
 			background-color: color.$purple;

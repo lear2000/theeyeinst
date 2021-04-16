@@ -9,8 +9,11 @@
 			padding-left: 44px;
 			padding-right: 44px;
 			padding-top: 20px;
-			padding-bottom: 33px;
+			padding-bottom: 20px;
 			display: flex;
+			align-items: center;
+			box-shadow: 0 3px 6px 	rgba(0, 0, 0, .1);
+
 			.logo {
 				width: 173.087px;
 				height:48.026px;
@@ -100,7 +103,7 @@
 			.sub-menu {
 				background-color: #fff;
 				border-radius: 5px;
-				min-width: 316px;
+				min-width: 200px;
 				box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
 				border:1px solid #F4F4F4;
 				transition: all .3s ease-in-out;
@@ -223,6 +226,9 @@
   	align-items: center;
   	padding-left: 1.5em;
   	padding-right: 1.5em;
+  	@media screen and (max-width: 1024px) {
+  	  padding-bottom: 1em;
+  	}
   }
   .nav-top {
   	display: none;

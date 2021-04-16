@@ -1,12 +1,39 @@
-<section class="layout-1-2 layout-1-2-copy">
-	
+<?php
+/**
+ * Block template file: tmpl/layout-1-2-copy.php
+ *
+ * Copylrblock Block Template.
+ *
+ * @param   array $block The block settings and attributes.
+ * @param   string $content The block inner HTML (empty).
+ * @param   bool $is_preview True during AJAX preview.
+ * @param   (int|string) $post_id The post ID this block is saved to.
+ */
+
+// Create id attribute allowing for custom "anchor" value.
+$id = 'copylrblock-' . $block['id'];
+if ( ! empty($block['anchor'] ) ) {
+    $id = $block['anchor'];
+}
+
+// Create class attribute allowing for custom "className" and "align" values.
+$classes = 'block-copylrblock';
+if ( ! empty( $block['className'] ) ) {
+    $classes .= ' ' . $block['className'];
+}
+if ( ! empty( $block['align'] ) ) {
+    $classes .= ' align' . $block['align'];
+}
+?>
+<section class="layout-1-2 layout-1-2-copy <?php echo esc_attr( $classes ); ?>" id="<?php echo esc_attr( $id ); ?>">
+
 	<div class="layout-1-2-copy__wrapper">
 		<div class="layout-1-2-copy__copy layout-1-2-copy__copy-1">
-			<p>The Eye Institute of Utah is a premier ophthalmology practice offering a comprehensive range of vision correction options and eye care services.</p>
+			<p><?php the_field( 'left_heading_copy' ); ?></p>
 		</div>
 
 		<div class="layout-1-2-copy__copy layout-1-2-copy__copy-2">
-			<p>We have dedicated specialists who can address most any eye condition with procedures ranging from LASIK, Custom Cataract Surgery, to Dry Eye, Glaucoma, Retina and Cornea Treatments. Our team is dedicated to caring for your vision and eye health, including preventative care and surgical treatment for the whole family. Come visit our fully equipped, state-of-the-art facility and see why our doctors are considered some of the most skilled specialists in the country.</p>
+			<div><?php the_field( 'right_copy' ); ?></div>
 		</div>
 	</div>
 
