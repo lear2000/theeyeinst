@@ -12,6 +12,22 @@
 	font-weight: 500;
 }
 
+body .u-mb-none{
+	margin-bottom: 0;
+}
+
+body .u-mt-none{
+	margin-top: 0;
+}
+
+body .u-pb-none{
+	padding-bottom: 0;
+}
+
+body .u-pt-none{
+	padding-top: 0;
+}
+
 @media only screen and (min-width: 960px) {
 	.layout-container{
 		max-width: $max-width-container;

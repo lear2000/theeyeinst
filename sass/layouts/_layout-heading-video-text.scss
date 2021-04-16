@@ -1,0 +1,26 @@
+@use "colors" as *;
+
+.layout-heading-video-text{
+	padding: 0px 20px 125px;
+	margin-top: -120px;
+
+	&__wrapper{
+		max-width: 880px;
+		margin: 0 auto;
+	}
+
+	&__heading{
+
+		.is-heading{
+			color: $white;
+			margin-bottom: 30px;
+		}
+	}
+	
+	&__video{
+		margin-bottom: 30px;
+		img{
+			margin: 0 auto;
+		}
+	}
+}
