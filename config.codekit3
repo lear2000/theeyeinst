@@ -73,6 +73,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/acf-json\/group_607a26701b60e.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_607a26701b60e-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/acf-json\/group_6079eb4e516da.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1912,6 +1920,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/layout-fullbgcenter.php",
+      "oF" : 0
+    },
+    "\/tmpl\/layout-fullwidthvideobtm.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/layout-fullwidthvideobtm.php",
       "oF" : 0
     },
     "\/tmpl\/layout-gridheading.php" : {

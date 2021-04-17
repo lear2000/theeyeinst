@@ -201,6 +201,17 @@ function fs_acf_init_block_types() {
             'render_template'   => 'tmpl/layout-gridheading.php',
         ));
 
+        //fullwidth with video at bottom
+        acf_register_block_type(array(
+            'name'              => 'fullbgvid',
+            'title'             => __('Full Width BG add Video - ACF'),
+            'description'       => __('full width background image with video option'),
+            'category'          => 'formatting',
+            'icon'              => 'groups',
+            'keywords'          => array( 'full width','video' ,'background','acf','layout' ),
+            'render_template'   => 'tmpl/layout-fullwidthvideobtm.php',
+        ));
+
     }// Check function exists.
 }
 

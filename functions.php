@@ -203,16 +203,10 @@ function telly_link($number){
 */
 function add_arrow( $output, $item, $depth, $args ){
 // //Only add class to 'top level' items on the 'primary' menu.
-if('Main Menu' == $args->menu && $depth === 0 ){
+if('Main Menu' == $args->menu && $depth === 0 or $args->menu && $depth === 1 ){
      if (in_array("menu-item-has-children", $item->classes)) {
          $output .='<div class="nav-plus"><span></span><span></span></div>';
     }
-    /* wraps the no dropdown */
-
-    // if (in_array("nodrop", $item->classes)) {
-    //     $output = '<a href="'. $item->url .'" title="'. $item->attr_title .'"><span>'.$item->title.'</span></a>';
-    //  }
-
 }
     return $output;
 }

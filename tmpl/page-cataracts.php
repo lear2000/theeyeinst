@@ -73,7 +73,7 @@
 	];
 ?>
 
-<section class="layout-syptoms-1-3">
+<!-- <section class="layout-syptoms-1-3">
 	<div class="layout-syptoms-1-3__wrapper">
 		<div class="layout-syptoms-1-3__text u-text-center">
 			<h2 class="u-font-semibold">Cataract Symptoms</h2>
@@ -93,14 +93,14 @@
 		</div>
 	</div>
 </section>
-
-<section class="layout-1-2 layout-1-2-reverse layout-1-2-type__inner layout-1-2-wide-text">
+ -->
+<!-- <section class="layout-1-2 layout-1-2-reverse layout-1-2-type__inner layout-1-2-wide-text">
 	<div class="layout-1-2__image layout-1-2-reverse__image" style="background-image:url(<?php echo get_template_directory_uri( )?>/img/section-lady.jpg);"></div>
 	<div class="layout-1-2__text layout-1-2-reverse__text">
 		<h2 class="is-heading u-text-medium u-font-semibold">Treatment For Cataracts</h2>
 		<p>In the early stages of a cataract, an updated eyeglasses or contact lens prescription may compensate for any visual deterioration. However, this approach does not cure the condition and as a cataract progresses, an increased prescription will no longer be adequate. Cataracts will eventually affect your ability to safely perform everyday tasks, such as driving and cooking, as well as prevent you from enjoying hobbies such as reading, sewing, exercising, art, or gardening. The only effective treatment for cataracts is surgery.</p>
 	</div>
-</section>
+</section> -->
 
 
 <section class="layout-full-background-text layout-wider-text u-mb-none" style="background-image:url(<?php echo get_template_directory_uri( )?>/img/what-are-cataracts-man.jpg);">
