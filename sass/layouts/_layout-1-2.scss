@@ -129,9 +129,6 @@
 			padding-bottom: 110px;
 		}
 
-		.layout-1-2__image{
-			max-width: calc((100% - 800px) + 100px);
-		}
 	}
 
 }
@@ -231,7 +228,15 @@
 			background-position: center center;
 		}
 
+		&.layout-1-2-wide-text{
+
+			.layout-1-2__image{
+				max-width: calc((100% - 800px) + 100px);
+			}
+		}
+
 	}
+
 }
 
 
