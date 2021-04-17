@@ -3072,12 +3072,13 @@ footer .formsmall form .stopyenoh {
   .layout-full-background-1-2__items {
     display: -webkit-flex;
     display: flex;
-    background-image: url("img/watermark-6.png");
+    background-image: url("img/watermark-center.svg");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center 150%;
     margin-top: -110px;
     padding-left: 40px;
     padding-right: 40px;
+    overflow: hidden;
   }
   .layout-full-background-1-2__item {
     padding-left: 50px;
@@ -3102,6 +3103,7 @@ footer .formsmall form .stopyenoh {
 }
 .layout-syptoms-1-3__item p {
   margin: 0;
+  line-height: 1.3;
 }
 
 @media only screen and (min-width: 960px) {

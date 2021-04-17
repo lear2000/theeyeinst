@@ -177,6 +177,30 @@ function fs_acf_init_block_types() {
             'render_template'   => 'tmpl/layout-leadpara.php',
         ));
 
+
+        //full background center copy
+        acf_register_block_type(array(
+            'name'              => 'fullbgcenter',
+            'title'             => __('Center Copy w/ Background - ACF'),
+            'description'       => __('Center copy with full image background'),
+            'category'          => 'formatting',
+            'icon'              => 'edit',
+            'keywords'          => array( 'full','content' ,'background','acf','layout' ),
+            'render_template'   => 'tmpl/layout-fullbgcenter.php',
+        ));
+
+
+        //symptoms block
+        acf_register_block_type(array(
+            'name'              => 'symptoms',
+            'title'             => __('Symptoms Grid Icons - ACF'),
+            'description'       => __('Symptoms block - grid icons'),
+            'category'          => 'formatting',
+            'icon'              => 'groups',
+            'keywords'          => array( 'grid','symptoms' ,'icons','acf','layout' ),
+            'render_template'   => 'tmpl/layout-gridheading.php',
+        ));
+
     }// Check function exists.
 }
 

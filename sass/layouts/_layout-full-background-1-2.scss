@@ -46,12 +46,14 @@
 
 		&__items{
 			display: flex;
-			background-image: url("img/watermark-6.png");
+			// background-image: url("img/watermark-6.png");
+			background-image: url("img/watermark-center.svg");
 			background-repeat: no-repeat;
-			background-position: center bottom;
+			background-position: center 150%;
 			margin-top: -110px;
 			padding-left: 40px;
 			padding-right: 40px;
+			overflow: hidden;
 		}
 
 		&__item{

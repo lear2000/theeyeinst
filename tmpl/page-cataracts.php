@@ -1,4 +1,4 @@
-<section class="layout-1-2 layout-1-2-type__inner">
+<!-- <section class="layout-1-2 layout-1-2-type__inner">
 	<div class="layout-1-2__image" style="background-image:url(<?php echo get_template_directory_uri( )?>/img/section-hiker.jpg);"></div>
 	<div class="layout-1-2__text">
 		<h1 class="is-heading">See What You’ve Been Missing - Cataract Surgery</h1>
@@ -19,7 +19,7 @@
 
 <section class="layout-full-background-1-2" style="background-image:url(<?php echo get_template_directory_uri( );?>/img/1-2_AdobeStock_298566264.jpg)">
 	<div class="layout-full-background-1-2__wrapper layout-container">
-		<div class="layout-full-background-1-2__items">	
+		<div class="layout-full-background-1-2__items">
 			<div class="layout-full-background-1-2__item">
 				<div class="layout-full-background-1-2__item-img">
 					<img src="<?php echo get_template_directory_uri()?>/img/cataract-normal-eye.png" alt="{replace me}">
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 <?php
@@ -69,7 +69,7 @@
 			'image' => get_template_directory_uri() . '/img/cat-symptom-6.png',
 			'copy' => 'Regular Changes To Prescriptions For Eyeglasses And/Or Contact Lenses'
 		]
-		
+
 	];
 ?>
 
@@ -109,7 +109,7 @@
 			<h2 class="is-heading u-text-center u-font-semibold">How Does Cataract Surgery Work?</h2>
 			<div class="layout-full-background-text__text-text">
 				<p>During cataract surgery, your surgeon will remove the cataract and replace your natural lens with an intraocular lens (IOL). An IOL is a lens implant that can improve your vision and sometimes even eliminate your need to wear eyeglasses or contact lenses after surgery.</p>
-				
+
 				<p>Cataract surgery is one of the most commonly performed surgeries in the United States, it is a very safe procedure with an extremely low complication rate and high rate of success1. At The Eye Institute of Utah, you can rest assured that our surgeons are widely regarded to be among the most skilled and respected cataract specialists. Any type of surgery carries a range of benefits and risks, and your eye doctor will discuss details with you during a thorough cataract examination prior to surgery.</p>
 			</div>
 		</div>
@@ -180,7 +180,7 @@
 			</div>
 		</div>
 		<div class="layout-surgery-highlights__2">
-			<div class="layout-surgery-highlights__2-items"> 
+			<div class="layout-surgery-highlights__2-items">
 				<?php foreach($highlights as $index => $highlight) { ?>
 					<div class="layout-surgery-highlights__2-item">
 						<div class="layout-surgery-highlights__2-item-img">
@@ -188,7 +188,7 @@
 						</div>
 						<div class="layout-surgery-highlights__2-item-text">
 							<p><?php echo $highlight['copy'];?></p>
-						</div>	
+						</div>
 					</div>
 				<?php } ?>
 			</div>
