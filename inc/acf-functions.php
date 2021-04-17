@@ -52,6 +52,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'images-alt2',
             'keywords'          => array( 'page', 'header','acf' ),
+						'mode'							=> 'edit',
         ));
 
         // register a reverse page header block.
@@ -63,6 +64,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'format-image',
             'keywords'          => array( 'page', 'header','acf','reverse' ),
+						'mode'							=> 'edit',
         ));
 
         // register a copy block block.
@@ -74,6 +76,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'editor-justify',
             'keywords'          => array( 'page', 'copy','acf','layout' ),
+						'mode'							=> 'edit',
         ));
 
         // register a physicans block.
@@ -85,6 +88,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'grid-view',
             'keywords'          => array( 'Doctor', 'copy','acf','layout','physicians' ),
+						'mode'							=> 'edit',
         ));
 
         ///layout-new-heights.php
@@ -96,6 +100,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'airplane',
             'keywords'          => array( 'new heights', 'copy','acf','layout','icons' ),
+						'mode'							=> 'edit',
         ));
 
                 ///layout-rating-quote.php
@@ -118,6 +123,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'table-col-before',
             'keywords'          => array( 'img', 'left','acf','layout' ),
             'render_template'   => 'tmpl/layout-1-2-alternate.php',
+						'mode'							=> 'edit',
         ));
 
         //just content
@@ -128,6 +134,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'keywords'          => array( 'content', 'just content','acf','layout' ),
             'render_template'   => 'tmpl/just-content.php',
+						'mode'							=> 'edit',
         ));
 
         //candidate
@@ -138,6 +145,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'keywords'          => array( 'Candidate', 'acf','layout' ),
             'render_template'   => 'tmpl/layout-andidate.php',
+						'mode'							=> 'edit',
         ));
 
     }// Check function exists.

@@ -2559,6 +2559,7 @@ footer .formsmall form .stopyenoh {
             order: 1;
     position: relative;
     z-index: 1;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 960px) {
