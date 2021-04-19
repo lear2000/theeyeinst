@@ -284,6 +284,19 @@ function fs_acf_init_block_types() {
                             'mode'              => 'edit',
                         ));
 
+                        //button secondary
+                        acf_register_block_type(array(
+                            'name'              => 'btnsecondary',
+                            'title'             => __('Secondary Button - ACF'),
+                            'description'       => __('Secondary Buttont'),
+                            'category'          => 'formatting',
+                            'icon'              => 'button',
+                            'keywords'          => array( 'secondary button','button' ,'line','acf','layout' ),
+                            'render_template'   => 'tmpl/snippet-buttonsecond.php',
+                            'mode'              => 'edit',
+                        ));
+
+
 
                         // Register Cite block
                                 acf_register_block_type( array(
@@ -321,6 +334,50 @@ function fs_acf_init_block_types() {
                                             // 'enqueue_assets'     => 'full_background_with_text___acf_block_enqueue_assets',
                                         ));
 
+                                        //inline Quote
+                                        acf_register_block_type(array(
+                                            'name'              => 'inlinequote',
+                                            'title'             => __('Quote Box - ACF'),
+                                            'description'       => __('Quote'),
+                                            'category'          => 'formatting',
+                                            'icon'              => 'format-quote',
+                                            'keywords'          => array( 'quote','inline quote' ,'acf','layout' ),
+                                            'render_template'   => 'tmpl/snippet-inlinequote.php',
+                                            'mode'              => 'edit',
+                                        ));
+
+
+
+                                        // Register Form Dark - ACF block
+                                                acf_register_block_type( array(
+                                                    'name'                  => 'form-dark---acf',
+                                                    'title'                 => __( 'Inline Form- ACF' ),
+                                                    'description'           => __( 'A custom Form Dark - ACF block.' ),
+                                                    'category'              => 'formatting',
+                                                    'icon'                  => 'feedback',
+                                                    'keywords'              => array( 'form', 'inline','dark','light','acf' ),
+                                                    'post_types'            => array( 'post', 'page' ),
+                                                    'mode'                  => 'edit',
+                                                    // 'align'              => 'wide',
+                                                    'render_template'       => 'tmpl/snippet-formdark.php',
+                                                    // 'render_callback'    => 'form_dark___acf_block_render_callback',
+                                                    // 'enqueue_style'      => get_template_directory_uri() . '/template-parts/blocks/form-dark---acf/form-dark---acf.css',
+                                                    // 'enqueue_script'     => get_template_directory_uri() . '/template-parts/blocks/form-dark---acf/form-dark---acf.js',
+                                                    // 'enqueue_assets'     => 'form_dark___acf_block_enqueue_assets',
+                                                ));
+
+
+                                                //mapblock Quote
+                                                acf_register_block_type(array(
+                                                    'name'              => 'contactmaps',
+                                                    'title'             => __('Map Contact Block - ACF'),
+                                                    'description'       => __('contact map block'),
+                                                    'category'          => 'formatting',
+                                                    'icon'              => 'format-quote',
+                                                    'keywords'          => array( 'map','contact' ,'acf','layout' ),
+                                                    'render_template'   => 'tmpl/layout-mapblock.php',
+                                                    'mode'              => 'edit',
+                                                ));
 
 
     }// Check function exists.

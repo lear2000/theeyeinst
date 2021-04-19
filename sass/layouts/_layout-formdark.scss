@@ -1,0 +1,89 @@
+@use "../colors" as *;
+@use "../_mixins" as mixin;
+.inline-form {
+	padding-left: 4vw;
+	padding-right: 4vw;
+	background-size: cover;
+	background-position: center;
+	min-height: 418px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.formwrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* formbase */
+		@include mixin.formbase
+	}
+	h2 {
+		font-size: 28px;
+		color: $brand;
+		text-align: center;
+		font-weight: $regular;
+		@media screen and (max-width: 767px) {
+		  font-size: 1.5em;
+		  margin-top: 1em;
+		  line-height: 1.2;
+		}
+	}
+	h3 {
+		font-size: 28px;
+		text-transform: uppercase;
+		color: $brand;
+		text-align: center;
+		margin-bottom: 2em;
+		@media screen and (max-width: 767px) {
+		  font-size: 1.5em;
+		  line-height: 1.2;
+		}
+	}
+
+	&.formlight {
+		background-color: #FAFAFA;
+		border:1px solid #E5E5E5;
+		box-shadow: 0 13px 16px 	rgba(0, 0, 0, .2);
+		small {
+			color: $brand;
+		}
+	}
+	&.formdark {
+		background-image: url('img/formbg.jpg');
+		position: relative;
+		&::after {
+			content:"";
+					position: absolute;
+					top: 0;
+					right: 0;
+					left: 0;
+					bottom: 0;
+					width: 100%;
+					height: 100%;
+					background-color: 	rgba(76, 63, 106,.8);
+		}
+		h2,h3,small {
+			color: #fff;
+		}
+		.formwrapper input:not(.submit-btn) {
+			border:none;
+		}
+	}
+	.fwrap {
+		position: relative;
+		z-index: 10;
+	}
+	small {
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-align: center;
+		padding-left: 4em;
+		padding-right: 4em;
+		font-size: 14px;
+		line-height: 1.25;
+		@media screen and (max-width: 767px) {
+		  padding-left: 1em;
+		  padding-right: 1em;
+		}
+	}
+}

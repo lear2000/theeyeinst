@@ -1,3 +1,4 @@
+@use '_colors' as *;
 //-----------------------------------------------------------------------
 //  Function to remove units
 //  http://stackoverflow.com/questions/12328259/how-do-you-strip-the-unit-from-any-number-in-sass
@@ -14,4 +15,139 @@
 //-----------------------------------------------------------------------
 @mixin line-height($ps-font-size, $ps-line-height: $ps-font-size) {
   line-height: (strip-units($ps-line-height) / strip-units($ps-font-size));
+}
+
+@mixin formbase() {
+	form {
+			display: flex;
+			margin:0;
+			padding:0;
+			flex-wrap: wrap;
+			justify-content: center;
+			width: 100%;
+			.stopyenoh {
+				display: none;
+				visibility: hidden;
+			}
+			.type-submitbutton {
+				display: flex;
+				justify-content: center;
+				width: 100%;
+				flex:1;
+				margin-top: 1.5em;
+				margin-bottom: 1.5em;
+			}
+			.submit-btn {
+				min-width:initial;
+				cursor: pointer;
+				background-color: $navitem;
+				color: #fff;
+				transition: all .3s ease-in-out;
+				text-transform: uppercase;
+				&:hover {
+						background-color: $purple;
+				}
+			}
+			input {
+				 height: 48px;
+			   font-size: 1em;
+			 	 color: #A8A8A8;
+			}
+			input:not(.submit-btn) {
+				display: block;
+			 	text-indent: 1em;
+			 	font-style: italic;
+			 	width: 100%;
+			 	height: 48px;
+			 	background-color: #fff;
+			 	border:1px solid #E3E3E3;
+				&::placeholder {
+					opacity: 1;
+					color: #A8A8A8;
+					font-style: italic;
+					font-size: 1em;
+				}
+				@media screen and (min-width: 1024px) {
+					width: 100%;
+				}
+			}
+
+			select {
+				appearance:none;
+				font-weight: normal;
+				font-size: 1em;
+				color: #A8A8A8;
+				height: 48px;
+				width: 100%;
+				border-radius: 8px;
+				outline: 0;
+				box-shadow: none;
+				background-image: none;
+				position: relative;
+				font-style: italic;
+				border:none;
+				text-indent: 6px;
+				background-color: #fff;
+				option {
+					background-color: #fff;
+				}
+			}
+			.type-selectbox {
+				position: relative;
+			}
+			.type-selectbox::after  {
+				    content: url(img/down-arrow.svg);
+				    position: absolute;
+				    top: 54%;
+				    right: 1em;
+				    cursor: pointer;
+				    pointer-events: none;
+				    width: 9.48px;
+				    height: 9.48px;
+				    transform: translateY(-50%);
+				    @media screen and (max-width: 767px) {
+				      top: 2.5em;
+				    }
+			}
+
+			textarea {
+							width: 100%;
+							min-height: 160px;
+							border:1px solid #E3E3E3;
+							font-family: 'Lato';
+							text-indent: 1em;
+							font-size: 1em;
+					}
+			@media screen and (min-width: 768px) {
+					  justify-content: center;
+					  width: 100%;
+					  .submit-wrap {
+					  	flex-grow: 1;
+					  	width: 100%;
+					  	align-self: center;
+					  	text-align: center;
+					  	margin-top: 1em;
+					  }
+					  div {
+					  	width: calc(100% / 4 - 2em );
+					  	margin-right: 1em;
+					  	&:nth-child(4n) {
+					  		margin-right: 0;
+					  	}
+					  	&.type-submitbutton {
+					  		margin-right: 0;
+					  	}
+					  }
+			}
+
+
+
+			@media screen and (max-width: 767px) {
+			  flex-wrap: wrap;
+			  div {
+			  	width: 100%;
+			  	margin-bottom: 1em;
+			  }
+			}
+		}
 }
