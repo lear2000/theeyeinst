@@ -70,12 +70,6 @@
 			border-right:1px solid transparent;
 			border-top:1px solid transparent;
 			text-transform: uppercase;
-			padding-left: 0;
-			padding-right: 0;
-			&:hover {
-							padding-left: 2em;
-							padding-right: 2em;
-			}
 		}
 	}
 
@@ -242,5 +236,9 @@
 			margin-top: 0;
 			margin-bottom: 3em;
 		}
+	}
+	.block-imgrtxtl,
+	.block-reverseheader {
+		min-height: 30vh;
 	}
 }

@@ -2,6 +2,10 @@
 
 .layout-surgery-highlights{
 	padding: 20px;
+	.layout-container {
+		max-width: 100%;
+		padding:0 4vw;
+	}
 
 	img{
 		margin: 0 auto;

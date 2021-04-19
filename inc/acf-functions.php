@@ -52,6 +52,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'images-alt2',
             'keywords'          => array( 'page', 'header','acf' ),
+            'mode'              => 'edit',
         ));
 
         // register a reverse page header block.
@@ -63,6 +64,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'format-image',
             'keywords'          => array( 'page', 'header','acf','reverse' ),
+            'mode'              => 'edit',
         ));
 
         // register a copy block block.
@@ -74,6 +76,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'editor-justify',
             'keywords'          => array( 'page', 'copy','acf','layout' ),
+            'mode'              => 'edit',
         ));
 
         // register a physicans block.
@@ -85,6 +88,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'grid-view',
             'keywords'          => array( 'Doctor', 'copy','acf','layout','physicians' ),
+            'mode'              => 'edit',
         ));
 
         ///layout-new-heights.php
@@ -96,6 +100,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'airplane',
             'keywords'          => array( 'new heights', 'copy','acf','layout','icons' ),
+            'mode'              => 'edit',
         ));
 
                 ///layout-rating-quote.php
@@ -107,6 +112,7 @@ function fs_acf_init_block_types() {
             'category'          => 'formatting',
             'icon'              => 'admin-plugins',
             'keywords'          => array( 'rating', 'copy','acf','layout' ),
+            'mode'              => 'edit',
         ));
 
                 ///layout-1-2-alternate.php
@@ -118,6 +124,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'table-col-before',
             'keywords'          => array( 'img', 'left','acf','layout' ),
             'render_template'   => 'tmpl/layout-1-2-alternate.php',
+            'mode'              => 'edit',
         ));
 
         //just content
@@ -129,6 +136,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'edit-page',
             'keywords'          => array( 'content', 'just content','acf','layout' ),
             'render_template'   => 'tmpl/just-content.php',
+            'mode'              => 'edit',
         ));
 
         //candidate
@@ -140,6 +148,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'businesswoman',
             'keywords'          => array( 'Candidate', 'acf','layout' ),
             'render_template'   => 'tmpl/layout-candidate.php',
+            'mode'              => 'edit',
         ));
 
         //video Left
@@ -151,6 +160,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'video-alt',
             'keywords'          => array( 'video left','video' ,'left','acf','layout' ),
             'render_template'   => 'tmpl/layout-videoleft.php',
+            'mode'              => 'edit',
         ));
 
 
@@ -163,6 +173,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'video-alt',
             'keywords'          => array( 'video right','video' ,'right','acf','layout' ),
             'render_template'   => 'tmpl/layout-videoright.php',
+            'mode'              => 'edit',
         ));
 
 
@@ -175,6 +186,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'edit',
             'keywords'          => array( 'lead','content' ,'spacing','acf','layout' ),
             'render_template'   => 'tmpl/layout-leadpara.php',
+            'mode'              => 'edit',
         ));
 
 
@@ -187,6 +199,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'edit',
             'keywords'          => array( 'full','content' ,'background','acf','layout' ),
             'render_template'   => 'tmpl/layout-fullbgcenter.php',
+            'mode'              => 'edit',
         ));
 
 
@@ -199,6 +212,7 @@ function fs_acf_init_block_types() {
             'icon'              => 'groups',
             'keywords'          => array( 'grid','symptoms' ,'icons','acf','layout' ),
             'render_template'   => 'tmpl/layout-gridheading.php',
+            'mode'              => 'edit',
         ));
 
         //fullwidth with video at bottom
@@ -210,7 +224,38 @@ function fs_acf_init_block_types() {
             'icon'              => 'groups',
             'keywords'          => array( 'full width','video' ,'background','acf','layout' ),
             'render_template'   => 'tmpl/layout-fullwidthvideobtm.php',
+            'mode'              => 'edit',
         ));
+
+        //img right text left
+        acf_register_block_type(array(
+            'name'              => 'imgrtxtl',
+            'title'             => __('Image Right Text Left - ACF'),
+            'description'       => __('image right text left'),
+            'category'          => 'formatting',
+            'icon'              => 'groups',
+            'keywords'          => array( 'text left','image right' ,'reverse','acf','layout' ),
+            'render_template'   => 'tmpl/layout-img-right-text-left.php',
+            'mode'              => 'edit',
+        ));
+        //highlights
+        // Register Highlights block
+                acf_register_block_type( array(
+                    'name'                  => 'highlights',
+                    'title'                 => __( 'Highlights' ),
+                    'description'           => __( 'Highlights with icons' ),
+                    'category'              => 'formatting',
+                    'icon'                  => 'layout',
+                    'keywords'              => array( 'highlights','icons','achive' ),
+                    'post_types'            => array( 'post', 'page' ),
+                    'mode'                  => 'edit',
+                    // 'align'              => 'wide',
+                    'render_template'       => 'tmpl/layout-highlights.php',
+                    // 'render_callback'    => 'highlights_block_render_callback',
+                    // 'enqueue_style'      => get_template_directory_uri() . '/template-parts/blocks/highlights/highlights.css',
+                    // 'enqueue_script'     => get_template_directory_uri() . '/template-parts/blocks/highlights/highlights.js',
+                    // 'enqueue_assets'     => 'highlights_block_enqueue_assets',
+                ));
 
     }// Check function exists.
 }

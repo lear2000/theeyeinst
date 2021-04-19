@@ -2324,12 +2324,6 @@ footer .formsmall form .stopyenoh {
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
   text-transform: uppercase;
-  padding-left: 0;
-  padding-right: 0;
-}
-.layout-1-2-type__index .layout-1-2__text .btn:hover {
-  padding-left: 2em;
-  padding-right: 2em;
 }
 .layout-1-2-type__index .layout-1-2-reverse__text {
   background-image: url("img/watermark-header.svg");
@@ -2454,6 +2448,10 @@ footer .formsmall form .stopyenoh {
 .insidepage .layout-1-2-type__index.layout-1-2-reverse {
   margin-top: 0;
   margin-bottom: 3em;
+}
+.insidepage .block-imgrtxtl,
+.insidepage .block-reverseheader {
+  min-height: 30vh;
 }
 
 .layout-1-2-copy {
@@ -3165,7 +3163,8 @@ footer .formsmall form .stopyenoh {
 .layout-heading-video-text iframe {
   width: 100%;
   max-width: 100%;
-  min-height: 60vh;
+  height: 100%;
+  min-height: 480px;
   border: 10px solid #EDEDED;
 }
 @media screen and (max-width: 767px) {
@@ -3184,6 +3183,10 @@ footer .formsmall form .stopyenoh {
 
 .layout-surgery-highlights {
   padding: 20px;
+}
+.layout-surgery-highlights .layout-container {
+  max-width: 100%;
+  padding: 0 4vw;
 }
 .layout-surgery-highlights img {
   margin: 0 auto;

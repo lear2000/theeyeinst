@@ -81,6 +81,22 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/acf-json\/group_607da86448642.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_607da86448642-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/acf-json\/group_607daa456bc22.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_607daa456bc22-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/acf-json\/group_6079eb4e516da.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1936,6 +1952,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/tmpl\/layout-gridheading.php",
+      "oF" : 0
+    },
+    "\/tmpl\/layout-highlights.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/layout-highlights.php",
+      "oF" : 0
+    },
+    "\/tmpl\/layout-img-right-text-left.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/tmpl\/layout-img-right-text-left.php",
       "oF" : 0
     },
     "\/tmpl\/layout-leadpara.php" : {
