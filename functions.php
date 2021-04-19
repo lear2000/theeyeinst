@@ -8,6 +8,28 @@
 include 'inc/acf-functions.php';
 
 
+function my_mce_buttons_2( $buttons ) {
+  /**
+   * Add in a core button that's disabled by default
+   */
+  $buttons[] = 'superscript';
+  $buttons[] = 'subscript';
+
+  return $buttons;
+}
+add_filter( 'mce_buttons_2', 'my_mce_buttons_2' );
+
+
+//faviicon admin
+function add_site_favicon() {
+    echo '<link rel="shortcut icon"
+href="' . get_stylesheet_directory_uri() . '/favicon/favicon.ico" />';
+}
+
+add_action('login_head', 'add_site_favicon');
+add_action('admin_head', 'add_site_favicon');
+
+
 // wrap guts blocks in fake class
 add_filter( 'render_block', function ( $block_content, $block ) {
 $blocks = [

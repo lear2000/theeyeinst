@@ -257,6 +257,72 @@ function fs_acf_init_block_types() {
                     // 'enqueue_assets'     => 'highlights_block_enqueue_assets',
                 ));
 
+
+                // Register icons + text
+                        acf_register_block_type( array(
+                            'name'                  => 'iconsandtext',
+                            'title'                 => __( 'Icons With Text Below' ),
+                            'description'           => __( 'icon block with text below' ),
+                            'category'              => 'formatting',
+                            'icon'                  => 'layout',
+                            'keywords'              => array( 'icons','text','text bottom' ),
+                            'post_types'            => array( 'post', 'page' ),
+                            'mode'                  => 'edit',
+                            'render_template'       => 'tmpl/layout-iconsingle.php',
+                            ));
+
+
+                        //button primary
+                        acf_register_block_type(array(
+                            'name'              => 'btnprimary',
+                            'title'             => __('Primary Button - ACF'),
+                            'description'       => __('Primary Buttont'),
+                            'category'          => 'formatting',
+                            'icon'              => 'button',
+                            'keywords'          => array( 'primary button','button' ,'line','acf','layout' ),
+                            'render_template'   => 'tmpl/snippet-button.php',
+                            'mode'              => 'edit',
+                        ));
+
+
+                        // Register Cite block
+                                acf_register_block_type( array(
+                                    'name'                  => 'acfcite',
+                                    'title'                 => __( 'Cite - ACF' ),
+                                    'description'           => __( 'Cite block for pages.' ),
+                                    'category'              => 'formatting',
+                                    'icon'                  => 'layout',
+                                    'keywords'              => array( 'cite','bottom', 'small' ),
+                                    'post_types'            => array( 'post', 'page' ),
+                                    'mode'                  => 'edit',
+                                    'render_template'       => 'tmpl/snippet-cite.php',
+                                    // 'render_callback'    => 'cite_block_render_callback',
+                                    // 'enqueue_style'      => get_template_directory_uri() . '/template-parts/blocks/cite/cite.css',
+                                    // 'enqueue_script'     => get_template_directory_uri() . '/template-parts/blocks/cite/cite.js',
+                                    // 'enqueue_assets'     => 'cite_block_enqueue_assets',
+                                ));
+
+
+                                // Register Full Background With Text - ACF block
+                                        acf_register_block_type( array(
+                                            'name'                  => 'full-background-with-text---acf',
+                                            'title'                 => __( 'Full Background With Text - ACF' ),
+                                            'description'           => __( 'A custom Full Background With Text - ACF block.' ),
+                                            'category'              => 'formatting',
+                                            'icon'                  => 'layout',
+                                            'keywords'              => array( 'full', 'background', 'with', 'text', 'acf' ),
+                                            'post_types'            => array( 'post', 'page' ),
+                                            'mode'                  => 'auto',
+                                            // 'align'              => 'wide',
+                                            'render_template'       => 'tmpl/layout-fullbg.php',
+                                            // 'render_callback'    => 'full_background_with_text___acf_block_render_callback',
+                                            // 'enqueue_style'      => get_template_directory_uri() . '/template-parts/blocks/full-background-with-text---acf/full-background-with-text---acf.css',
+                                            // 'enqueue_script'     => get_template_directory_uri() . '/template-parts/blocks/full-background-with-text---acf/full-background-with-text---acf.js',
+                                            // 'enqueue_assets'     => 'full_background_with_text___acf_block_enqueue_assets',
+                                        ));
+
+
+
     }// Check function exists.
 }
 

@@ -171,6 +171,7 @@ a {
   color: #7832D0;
   font-weight: 900;
   cursor: pointer;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
@@ -188,9 +189,49 @@ ul li {
 
 ol {
   list-style-position: inside;
+  counter-reset: item;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: 700;
+  padding-right: 0.5em;
 }
 
 /* button */
+.wp-block-button {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.wp-block-button__link {
+  background-color: transparent;
+  border-bottom: 1px solid #473E5C;
+  color: #473E5C;
+  border-radius: 0;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.94em;
+  display: inline-block;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-weight: normal;
+}
+.wp-block-button__link:hover {
+  background-color: #473E5C;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #473E5C;
+  text-decoration: none;
+}
+
 .btn {
   background-color: #423D4A;
   color: #fff;
@@ -257,6 +298,15 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+sup {
+  font-size: 0.7em;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.2em;
 }
 
 .u-text-center {
@@ -3010,7 +3060,7 @@ footer .formsmall form .stopyenoh {
 }
 .layout-full-background-text {
   padding: 150px 20px;
-  margin: 50px 0px;
+  margin: 67px 0px 67px 0;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -3184,10 +3234,6 @@ footer .formsmall form .stopyenoh {
 .layout-surgery-highlights {
   padding: 20px;
 }
-.layout-surgery-highlights .layout-container {
-  max-width: 100%;
-  padding: 0 4vw;
-}
 .layout-surgery-highlights img {
   margin: 0 auto;
 }
@@ -3199,6 +3245,8 @@ footer .formsmall form .stopyenoh {
 }
 .layout-surgery-highlights__1-1-text p {
   line-height: 1.35;
+  font-size: 23px;
+  font-weight: normal;
 }
 .layout-surgery-highlights__1-2-heading .is-heading {
   line-height: 1.25;
@@ -3228,10 +3276,18 @@ footer .formsmall form .stopyenoh {
 @media only screen and (min-width: 960px) {
   .layout-surgery-highlights {
     padding-top: 320px;
-    background-image: url("img/background-mountains-6.png");
     background-repeat: no-repeat;
-    background-size: 102%;
-    background-position: 0px 82px;
+    background-size: 110%;
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .layout-surgery-highlights .layout-container {
+    max-width: 100%;
+    padding: 0 6vw;
+  }
+  .layout-surgery-highlights .layout-surgery-highlights__1-2 {
+    padding-left: 6em;
   }
   .layout-surgery-highlights__1 {
     display: -webkit-flex;
@@ -3275,6 +3331,21 @@ footer .formsmall form .stopyenoh {
   .layout-surgery-highlights__3 {
     margin-top: 80px;
   }
+  .layout-surgery-highlights__3 > * {
+    font-size: 0.8em;
+  }
+}
+.icon_text_below.layout-surgery-highlights {
+  padding-top: 30px;
+  background: none;
+  padding-bottom: 3em;
+}
+
+.layout-surgery-highlights__2 {
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 4vw;
 }
 
 /*# sourceMappingURL=style.css.map */
