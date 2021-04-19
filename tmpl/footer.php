@@ -36,6 +36,10 @@
 	<!-- footer form small -->
 	<?php endif; ?>
 
+	<?php if ($whatfooter == "large"):?>
+		<?php get_template_part( 'tmpl/large', 'footerform' ); ?>
+	<?php endif; ?>
+
 	<div class="container">
 	<div class="f-bar-one">
 		<span class="f-logo">
@@ -70,10 +74,6 @@
 
 
 <?php $include_on_these_pages = get_field( 'include_on_these_pages', 'option' ); ?>
-
-<?php echo "<pre>";
-print_r($include_on_these_pages);
-echo "</pre>"; ?>
 
 <div class="desk-sticky">
 	<?php if ( have_rows( 'special_link', 'option' ) ) : ?>

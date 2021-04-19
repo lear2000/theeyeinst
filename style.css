@@ -788,7 +788,6 @@ body .u-pt-none {
 
 .mapblock {
   padding-top: 2em;
-  padding-bottom: 2em;
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: center;
@@ -1947,6 +1946,7 @@ footer form select {
 }
 footer form select option {
   background-color: #fff;
+  color: #473E5C;
 }
 footer form .type-selectbox {
   position: relative;
@@ -2003,8 +2003,17 @@ footer .formlarge form div.type-textarea {
   margin-right: 0;
   width: 100%;
 }
+footer .formlarge form div.type-text {
+  width: 100%;
+  margin-right: 0;
+}
+footer .formlarge form div.type-text div {
+  width: 100%;
+  margin-right: 0;
+}
 footer .formlarge small {
   color: #A8A8A8;
+  font-style: italic;
 }
 footer .formlarge input:not(.submit-btn)::-webkit-input-placeholder {
   color: #fff;
@@ -2027,12 +2036,14 @@ footer .formlarge label {
   color: #A8A8A8;
   font-style: italic;
   text-indent: 1em;
+  margin-bottom: 0.5em;
 }
 footer .formlarge .type-submitbutton {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: center;
           justify-content: center;
+  margin-right: 0;
 }
 footer .formlarge .type-submitbutton input {
   margin-left: 0;
@@ -2396,6 +2407,7 @@ footer .formsmall form .stopyenoh {
 }
 .inline-form .formwrapper form select option {
   background-color: #fff;
+  color: #473E5C;
 }
 .inline-form .formwrapper form .type-selectbox {
   position: relative;

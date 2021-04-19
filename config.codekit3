@@ -2165,6 +2165,14 @@
       "oAP" : "\/tmpl\/just-content.php",
       "oF" : 0
     },
+    "\/tmpl\/large-footerform.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tmpl\/large-footerform.php",
+      "oF" : 0
+    },
     "\/tmpl\/layout-1-2-alternate.php" : {
       "cB" : 0,
       "ft" : 8192,

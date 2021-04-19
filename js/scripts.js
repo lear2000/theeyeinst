@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 			  }
 			}
 
-			document.addEventListener('scroll', function(e) {
+			document.addEventListener('scroll', function() {
 			  lastKnownScrollPosition = window.scrollY;
 
 			  if (!ticking) {
@@ -103,5 +103,10 @@ jQuery(document).ready(function($) {
 
 		} //mql
 
+
+		var swapfield = $('.swapfield');
+		if (swapfield.length > 0) {
+				swapfield.insertAfter('.type-submitbutton');
+		}
 
 });

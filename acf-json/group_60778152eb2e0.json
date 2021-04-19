@@ -17,7 +17,8 @@
             },
             "choices": {
                 "single": "Single Button",
-                "quick": "Quick Contact"
+                "quick": "Quick Contact",
+                "large": "Large Form"
             },
             "allow_null": 0,
             "other_choice": 0,
@@ -44,5 +45,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1618444731
+    "modified": 1618865248
 }

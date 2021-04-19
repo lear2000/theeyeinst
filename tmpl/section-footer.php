@@ -36,6 +36,10 @@
 	<!-- footer form small -->
 	<?php endif; ?>
 
+	<?php if ($whatfooter == "large"):?>
+		<?php get_template_part( 'tmpl/large', 'footerform' ); ?>
+	<?php endif; ?>
+
 	<div class="container">
 	<div class="f-bar-one">
 		<span class="f-logo">
