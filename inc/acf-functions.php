@@ -380,6 +380,19 @@ function fs_acf_init_block_types() {
                                                 ));
 
 
+                                                //comparison chart
+                                                acf_register_block_type(array(
+                                                    'name'              => 'comparisonchart',
+                                                    'title'             => __('Comparison Chart - ACF'),
+                                                    'description'       => __('Comparison Chart'),
+                                                    'category'          => 'formatting',
+                                                    'icon'              => 'chart-bar',
+                                                    'keywords'          => array( 'comparison','chart' ,'acf','layout' ),
+                                                    'render_template'   => 'tmpl/layout-chart.php',
+                                                    'mode'              => 'edit',
+                                                ));
+
+
     }// Check function exists.
 }
 
