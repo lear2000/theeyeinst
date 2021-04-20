@@ -1,6 +1,90 @@
 @use 'colors' as *;
 .blogbar {
 	margin-bottom: 2em;
+	.catselect {
+		position: relative;
+		@media screen and (max-width: 767px) {
+			&.arcsel {
+				margin-left: 1em;
+			}
+		}
+	}
+	.fselect {
+		font-size: 22px;
+		color: $secondary;
+		background: transparent url("img/down-arrow.svg") no-repeat;
+		background-position: right top 60%;
+		padding-right: 1em;
+		padding-left: 1em;
+		cursor: pointer;
+		&.is-active {
+			color: $purple;
+		}
+
+	}
+
+	.fscats {
+		position: absolute;
+		display: none;
+		min-width: 80vw;
+		max-width: 90vw;
+		flex-wrap: wrap;
+		background-color: #fff;
+		border:1px solid #F4F4F4;
+		box-shadow: 0 13px 16px 	rgba(0, 0, 0, .2);
+		padding: 1em;
+		border-radius: 5px;
+		left: 1em;
+		top: 3em;
+		@media screen and (max-width: 767px) {
+		  left: 1em;
+		  max-width: 100%;
+		  min-width: 320px;
+		}
+		&.is-active {
+			display: flex;
+		}
+		&.arcats {
+			left: -10vw;
+			min-width: 640px;
+			max-width: 60vw;
+			@media screen and (max-width: 767px) {
+			  left: -100%;
+			  min-width: 320px;
+			  max-width: 100%;
+			  a {
+			  	padding-left: 2em;
+			  }
+			}
+		}
+		li {
+			list-style-type: none;
+			width: 33%;
+			@media screen and (max-width: 767px) {
+			  width: 50%;
+			}
+			 a {
+			 	width: initial;
+			 	padding-right: 0;
+			 }
+		}
+		a {
+			font-weight: $regular;
+			padding-right: 1em;
+			width: 33%;
+			font-size: 14px;
+			color: #4E3A6A;
+			cursor: pointer;
+			@media screen and (max-width: 767px) {
+			  width: 50%;
+			  line-height: 1.25;
+			  padding-bottom: 1em;
+			}
+			&:hover {
+					color: $purple;
+			}
+		}
+	}
 	select {
 		font-size: 22px;
 		appearance:none;
@@ -37,6 +121,8 @@
 		  padding-top: 0;
 		  label {
 		  	padding-left: 1em;
+		  	margin-top: 1em;
+		  	display: block;
 		  }
 		}
 		input[type="search"] {
@@ -53,9 +139,11 @@
 			font-weight: 400;
 			@media screen and (max-width: 767px) {
 			  margin-left: 0;
-			  height: 44px;
+			  height: 34px;
 			  margin-bottom: .5em;
-			  min-width: 100%;
+			  min-width: initial;
+			  width: calc(100% - 1em);
+			  margin-left: 1em;
 			}
 
 		}
@@ -82,6 +170,10 @@
 			padding-right: 1em;
 			font-weight: 300;
 			margin-left: .5em;
+			@media screen and (max-width: 767px) {
+			  margin-top: 1em;
+			  margin-left: 1em;
+			}
 			&:hover {
 					background-color: $purple;
 			}

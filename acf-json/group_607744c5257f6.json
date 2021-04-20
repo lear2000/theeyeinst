@@ -38,6 +38,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_607e72cc9afc4",
+            "label": "Banner (mobile)",
+            "name": "banner_mobile",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
             "key": "field_607782593c665",
             "label": "Footer",
             "name": "",
@@ -350,5 +369,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1618602264
+    "modified": 1618899685
 }

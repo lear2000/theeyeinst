@@ -46,6 +46,9 @@ h3 {
 	font-weight: color.$semibold;
 	color: color.$brand;
 	@include mixin.line-height(26,24);
+	@media screen and (max-width: 767px) {
+	  line-height: 1.2;
+	}
 }
 h4 {
 	font-size: 24px;
@@ -190,6 +193,30 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	&.alignleft {
+		float: left;
+		margin-right: 1em;
+		margin-top: .5em;
+		margin-bottom: 1em;
+		@media screen and (max-width: 767px) {
+		  float: none;
+		  margin: 1em auto;
+		}
+	}
+	&.alignright {
+		float: right;
+		margin-left: 1em;
+		margin-top: .5em;
+		margin-bottom: 1em;
+		@media screen and (max-width: 767px) {
+		  float: none;
+		  margin: 1em auto;
+		}
+	}
+	&.aligncenter {
+		float: none;
+		margin: 1em auto;
+	}
 }
 
 

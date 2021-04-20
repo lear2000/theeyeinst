@@ -1,3 +1,4 @@
+<div class="banner"><?php the_field( 'banner_mobile', 'option' ); ?></div>
 <header>
 	<a href="<?php bloginfo('url');?>/" class="logo"><img src="<?php bloginfo('template_directory');?>/img/logo.svg" alt="The Eye Institute of Utah - Logo" width="173.087" height="48.026"/></a>
 	<div class="nav-wraps">

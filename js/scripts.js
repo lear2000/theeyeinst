@@ -28,6 +28,21 @@ jQuery(document).ready(function($) {
 	 * slicks
 	*/
 
+	$('.type-checkbox').find('label, input').wrapAll('<div>');
+
+	$('.catsel').click(function(event) {
+			event.preventDefault();
+			$('.arcats').removeClass('is-active');
+		  $(this).next('.fscats').toggleClass('is-active');
+			$(this).toggleClass('is-active');
+	});
+	$('.arcsel').click(function(event) {
+			event.preventDefault();
+			$('.catcat').removeClass('is-active');
+		  $(this).find('.fscats').toggleClass('is-active');
+			$(this).toggleClass('is-active');
+	});
+
 	$('.layout-physicians__list').slick({
 		arrows: false,
 		centerMode: true,
